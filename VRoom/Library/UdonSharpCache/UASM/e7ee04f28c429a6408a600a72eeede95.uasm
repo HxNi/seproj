@@ -1,0 +1,394 @@
+.data_start
+
+
+    __refl_const_intnl_udonTypeID: %SystemInt64, null
+    __refl_const_intnl_udonTypeName: %SystemString, null
+    __0_mp_b_Quaternion: %UnityEngineQuaternion, null
+    __0_mp_a_Quaternion: %UnityEngineQuaternion, null
+    __0_result_Single: %SystemSingle, null
+    __0_derivative_Single: %SystemSingle, null
+    __0_integral_Single: %SystemSingle, null
+    __0_proportional_Single: %SystemSingle, null
+    __0_currentError_Single: %SystemSingle, null
+    __0_divisor_Single: %SystemSingle, null
+    __0_t_Single: %SystemSingle, null
+    __0_mp_deltaTime_Single: %SystemSingle, null
+    __0_mp_targetValue_Single: %SystemSingle, null
+    __0_mp_currentValue_Single: %SystemSingle, null
+    __0_mp_previousError_Single: %SystemSingle, null
+    __0_mp_previousIntegral_Single: %SystemSingle, null
+    __0_mp_factor_Single: %SystemSingle, null
+    __0_mp_input_Single: %SystemSingle, null
+    __0_mp_t_Single: %SystemSingle, null
+    __1_mp_b_Single: %SystemSingle, null
+    __1_mp_a_Single: %SystemSingle, null
+    __1_mp_value_Single: %SystemSingle, null
+    __0_mp_b_Single: %SystemSingle, null
+    __0_mp_a_Single: %SystemSingle, null
+    __0_mp_value_Single: %SystemSingle, null
+    __0_mp_outMax_Single: %SystemSingle, null
+    __0_mp_outMin_Single: %SystemSingle, null
+    __0_mp_inMax_Single: %SystemSingle, null
+    __0_mp_inMin_Single: %SystemSingle, null
+    __0_mp_pid_Vector3: %UnityEngineVector3, null
+    __1_const_intnl_SystemSingle: %SystemSingle, null
+    __0_const_intnl_SystemSingle: %SystemSingle, null
+    __1_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_SystemUInt32: %SystemUInt32, null
+    __0_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_UnityEngineQuaternion: %UnityEngineQuaternion, null
+    __0_intnl_returnValSymbol_Quaternion: %UnityEngineQuaternion, null
+    __22_intnl_SystemSingle: %SystemSingle, null
+    __21_intnl_SystemSingle: %SystemSingle, null
+    __20_intnl_SystemSingle: %SystemSingle, null
+    __19_intnl_SystemSingle: %SystemSingle, null
+    __18_intnl_SystemSingle: %SystemSingle, null
+    __17_intnl_SystemSingle: %SystemSingle, null
+    __16_intnl_SystemSingle: %SystemSingle, null
+    __15_intnl_SystemSingle: %SystemSingle, null
+    __14_intnl_SystemSingle: %SystemSingle, null
+    __13_intnl_SystemSingle: %SystemSingle, null
+    __12_intnl_SystemSingle: %SystemSingle, null
+    __11_intnl_SystemSingle: %SystemSingle, null
+    __10_intnl_SystemSingle: %SystemSingle, null
+    __9_intnl_SystemSingle: %SystemSingle, null
+    __8_intnl_SystemSingle: %SystemSingle, null
+    __7_intnl_SystemSingle: %SystemSingle, null
+    __6_intnl_SystemSingle: %SystemSingle, null
+    __5_intnl_SystemSingle: %SystemSingle, null
+    __4_intnl_SystemSingle: %SystemSingle, null
+    __3_intnl_SystemSingle: %SystemSingle, null
+    __2_intnl_SystemSingle: %SystemSingle, null
+    __1_intnl_SystemSingle: %SystemSingle, null
+    __0_intnl_SystemSingle: %SystemSingle, null
+    __3_intnl_returnValSymbol_Single: %SystemSingle, null
+    __2_intnl_returnValSymbol_Single: %SystemSingle, null
+    __1_intnl_returnValSymbol_Single: %SystemSingle, null
+    __0_intnl_returnValSymbol_Single: %SystemSingle, null
+    __0_intnl_returnTarget_UInt32: %SystemUInt32, null
+    __0_intnl_returnValSymbol_Vector3: %UnityEngineVector3, null
+
+.data_end
+
+        
+         #  using UdonSharp;
+        
+         #  using UnityEngine;
+        
+         #  namespace Guribo.UdonUtils.Runtime.Common
+        
+         #  [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
+        
+         #  public class UdonMath : UdonSharpBehaviour
+.code_start
+        
+         #  public float Remap(float inMin, float inMax, float outMin, float outMax, float value)
+    .export Remap
+        
+    Remap:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var t = InverseLerp(inMin, inMax, value);
+        PUSH, __0_mp_inMin_Single
+        PUSH, __0_mp_a_Single
+        COPY
+        PUSH, __0_mp_inMax_Single
+        PUSH, __0_mp_b_Single
+        COPY
+        PUSH, __0_mp_value_Single
+        PUSH, __1_mp_value_Single
+        COPY
+        PUSH, __0_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000000F8
+        PUSH, __1_intnl_returnValSymbol_Single
+        PUSH, __0_t_Single
+        COPY
+        
+         #  return Lerp(outMin, outMax, t);
+        PUSH, __0_mp_outMin_Single
+        PUSH, __1_mp_a_Single
+        COPY
+        PUSH, __0_mp_outMax_Single
+        PUSH, __1_mp_b_Single
+        COPY
+        PUSH, __0_t_Single
+        PUSH, __0_mp_t_Single
+        COPY
+        PUSH, __1_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000001F4
+        PUSH, __2_intnl_returnValSymbol_Single
+        PUSH, __0_intnl_returnValSymbol_Single
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public float InverseLerp(float a, float b, float value)
+    .export InverseLerp
+        
+    InverseLerp:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var divisor = b - a;
+        PUSH, __0_mp_b_Single
+        PUSH, __0_mp_a_Single
+        PUSH, __0_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_intnl_SystemSingle
+        PUSH, __0_divisor_Single
+        COPY
+        
+         #  if (divisor == 0f)
+        PUSH, __0_divisor_Single
+        PUSH, __0_const_intnl_SystemSingle
+        PUSH, __0_intnl_SystemBoolean
+        EXTERN, "SystemSingle.__op_Equality__SystemSingle_SystemSingle__SystemBoolean"
+        PUSH, __0_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000184
+        
+         #  {
+        
+         #  return a;
+        PUSH, __0_mp_a_Single
+        PUSH, __1_intnl_returnValSymbol_Single
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  return (value - a) / divisor;
+        PUSH, __1_mp_value_Single
+        PUSH, __0_mp_a_Single
+        PUSH, __1_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __1_intnl_SystemSingle
+        PUSH, __0_divisor_Single
+        PUSH, __1_intnl_returnValSymbol_Single
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public float Lerp(float a, float b, float t)
+    .export Lerp
+        
+    Lerp:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  return (1f - t) * a + t * b;
+        PUSH, __1_const_intnl_SystemSingle
+        PUSH, __0_mp_t_Single
+        PUSH, __2_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __2_intnl_SystemSingle
+        PUSH, __1_mp_a_Single
+        PUSH, __3_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_mp_t_Single
+        PUSH, __1_mp_b_Single
+        PUSH, __4_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __3_intnl_SystemSingle
+        PUSH, __4_intnl_SystemSingle
+        PUSH, __2_intnl_returnValSymbol_Single
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public float ApplyExpo(float input, float factor)
+    .export ApplyExpo
+        
+    ApplyExpo:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  return (1f - factor) * (input * input * input) + (factor * input);
+        PUSH, __1_const_intnl_SystemSingle
+        PUSH, __0_mp_factor_Single
+        PUSH, __5_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_mp_input_Single
+        PUSH, __0_mp_input_Single
+        PUSH, __6_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __6_intnl_SystemSingle
+        PUSH, __0_mp_input_Single
+        PUSH, __7_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __5_intnl_SystemSingle
+        PUSH, __7_intnl_SystemSingle
+        PUSH, __8_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_mp_factor_Single
+        PUSH, __0_mp_input_Single
+        PUSH, __9_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __8_intnl_SystemSingle
+        PUSH, __9_intnl_SystemSingle
+        PUSH, __3_intnl_returnValSymbol_Single
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public Vector3 PidUpdate(Vector3 pid,
+        
+         #  float previousIntegral,
+        
+         #  float previousError,
+        
+         #  float currentValue,
+        
+         #  float targetValue,
+        
+         #  float deltaTime)
+    .export PidUpdate
+        
+    PidUpdate:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var currentError = targetValue - currentValue;
+        PUSH, __0_mp_targetValue_Single
+        PUSH, __0_mp_currentValue_Single
+        PUSH, __10_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __10_intnl_SystemSingle
+        PUSH, __0_currentError_Single
+        COPY
+        
+         #  var proportional = pid.x * currentError;
+        PUSH, __0_mp_pid_Vector3
+        PUSH, __11_intnl_SystemSingle
+        EXTERN, "UnityEngineVector3.__get_x__SystemSingle"
+        PUSH, __11_intnl_SystemSingle
+        PUSH, __0_currentError_Single
+        PUSH, __12_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __12_intnl_SystemSingle
+        PUSH, __0_proportional_Single
+        COPY
+        
+         #  var integral = previousIntegral + deltaTime * pid.y * currentError;
+        PUSH, __0_mp_pid_Vector3
+        PUSH, __13_intnl_SystemSingle
+        EXTERN, "UnityEngineVector3.__get_y__SystemSingle"
+        PUSH, __0_mp_deltaTime_Single
+        PUSH, __13_intnl_SystemSingle
+        PUSH, __14_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __14_intnl_SystemSingle
+        PUSH, __0_currentError_Single
+        PUSH, __15_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __0_mp_previousIntegral_Single
+        PUSH, __15_intnl_SystemSingle
+        PUSH, __16_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __16_intnl_SystemSingle
+        PUSH, __0_integral_Single
+        COPY
+        
+         #  var derivative = pid.z * (currentError - previousError) / deltaTime;
+        PUSH, __0_mp_pid_Vector3
+        PUSH, __17_intnl_SystemSingle
+        EXTERN, "UnityEngineVector3.__get_z__SystemSingle"
+        PUSH, __0_currentError_Single
+        PUSH, __0_mp_previousError_Single
+        PUSH, __18_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __17_intnl_SystemSingle
+        PUSH, __18_intnl_SystemSingle
+        PUSH, __19_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __19_intnl_SystemSingle
+        PUSH, __0_mp_deltaTime_Single
+        PUSH, __20_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Division__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __20_intnl_SystemSingle
+        PUSH, __0_derivative_Single
+        COPY
+        
+         #  var result = proportional + integral + derivative;
+        PUSH, __0_proportional_Single
+        PUSH, __0_integral_Single
+        PUSH, __21_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __21_intnl_SystemSingle
+        PUSH, __0_derivative_Single
+        PUSH, __22_intnl_SystemSingle
+        EXTERN, "SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle"
+        PUSH, __22_intnl_SystemSingle
+        PUSH, __0_result_Single
+        COPY
+        
+         #  return new Vector3(result, integral, currentError);
+        PUSH, __0_result_Single
+        PUSH, __0_integral_Single
+        PUSH, __0_currentError_Single
+        PUSH, __0_intnl_returnValSymbol_Vector3
+        EXTERN, "UnityEngineVector3.__ctor__SystemSingle_SystemSingle_SystemSingle__UnityEngineVector3"
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public Quaternion GetDeltaAToB(Quaternion a, Quaternion b)
+    .export GetDeltaAToB
+        
+    GetDeltaAToB:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  return Quaternion.Inverse(a) * b;
+        PUSH, __0_mp_a_Quaternion
+        PUSH, __0_intnl_UnityEngineQuaternion
+        EXTERN, "UnityEngineQuaternion.__Inverse__UnityEngineQuaternion__UnityEngineQuaternion"
+        PUSH, __0_intnl_UnityEngineQuaternion
+        PUSH, __0_mp_b_Quaternion
+        PUSH, __0_intnl_returnValSymbol_Quaternion
+        EXTERN, "UnityEngineQuaternion.__op_Multiply__UnityEngineQuaternion_UnityEngineQuaternion__UnityEngineQuaternion"
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+.code_end

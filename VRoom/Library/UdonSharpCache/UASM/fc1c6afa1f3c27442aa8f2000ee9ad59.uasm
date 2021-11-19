@@ -1,0 +1,853 @@
+.data_start
+
+    .export syncedValue
+    .export oldValue
+    .export targetBehaviour
+    .export targetVariable
+    .export changeEventListeners
+    .export targetChangeEvent
+    .export preSerializationEventListeners
+    .export targetPreSerialization
+    .export deserializeEventListeners
+    .export targetDeserializeEvent
+    .export serializedEventListeners
+    .export targetSerializedEvent
+    .export udonDebug
+    .sync syncedValue, none
+
+    __refl_const_intnl_udonTypeID: %SystemInt64, null
+    __refl_const_intnl_udonTypeName: %SystemString, null
+    serializedEventListeners: %UnityEngineComponentArray, null
+    deserializeEventListeners: %UnityEngineComponentArray, null
+    preSerializationEventListeners: %UnityEngineComponentArray, null
+    changeEventListeners: %UnityEngineComponentArray, null
+    oldValue: %SystemInt32Array, null
+    syncedValue: %SystemInt32Array, null
+    targetSerializedEvent: %SystemString, null
+    targetDeserializeEvent: %SystemString, null
+    targetPreSerialization: %SystemString, null
+    targetChangeEvent: %SystemString, null
+    targetVariable: %SystemString, null
+    udonDebug: %VRCUdonUdonBehaviour, null
+    targetBehaviour: %VRCUdonUdonBehaviour, null
+    onPostSerializationResult: %VRCUdonCommonSerializationResult, null
+    __0_this_intnl_UnityEngineGameObject: %UnityEngineGameObject, this
+    __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray: %VRCUdonUdonBehaviour, this
+    __0_mp_listeners_UdonSharpBehaviourArray: %UnityEngineComponentArray, null
+    __0_temp_Int32Array: %SystemInt32Array, null
+    __0_array_Int32Array: %SystemInt32Array, null
+    __0_value_Object: %SystemObject, null
+    __0_mp_result_SerializationResult: %VRCUdonCommonSerializationResult, null
+    __0_mp_eventName_String: %SystemString, null
+    __0_preSerializationEventListener_UdonSharpBehaviour: %VRCUdonUdonBehaviour, null
+    __2_localPlayer_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __1_localPlayer_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __0_localPlayer_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __1_const_intnl_SystemBoolean: %SystemBoolean, null
+    __0_const_intnl_SystemBoolean: %SystemBoolean, null
+    __0_const_intnl_UnityEngineComponentArray: %UnityEngineComponentArray, null
+    __1_const_intnl_SystemInt32: %SystemInt32, null
+    __0_const_intnl_SystemInt32: %SystemInt32, null
+    __0_const_intnl_SystemInt32Array: %SystemInt32Array, null
+    __0_const_intnl_SystemObject: %SystemObject, null
+    __18_const_intnl_SystemString: %SystemString, null
+    __17_const_intnl_SystemString: %SystemString, null
+    __16_const_intnl_SystemString: %SystemString, null
+    __15_const_intnl_SystemString: %SystemString, null
+    __14_const_intnl_SystemString: %SystemString, null
+    __13_const_intnl_SystemString: %SystemString, null
+    __12_const_intnl_SystemString: %SystemString, null
+    __11_const_intnl_SystemString: %SystemString, null
+    __10_const_intnl_SystemString: %SystemString, null
+    __9_const_intnl_SystemString: %SystemString, null
+    __8_const_intnl_SystemString: %SystemString, null
+    __7_const_intnl_SystemString: %SystemString, null
+    __6_const_intnl_SystemString: %SystemString, null
+    __5_const_intnl_SystemString: %SystemString, null
+    __4_const_intnl_SystemString: %SystemString, null
+    __3_const_intnl_SystemString: %SystemString, null
+    __2_const_intnl_SystemString: %SystemString, null
+    __1_const_intnl_SystemString: %SystemString, null
+    __0_const_intnl_SystemString: %SystemString, null
+    __5_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __4_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __3_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __2_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __1_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_SystemUInt32: %SystemUInt32, null
+    __45_intnl_SystemBoolean: %SystemBoolean, null
+    __44_intnl_SystemBoolean: %SystemBoolean, null
+    __43_intnl_SystemBoolean: %SystemBoolean, null
+    __42_intnl_SystemBoolean: %SystemBoolean, null
+    __41_intnl_SystemBoolean: %SystemBoolean, null
+    __40_intnl_SystemBoolean: %SystemBoolean, null
+    __39_intnl_SystemBoolean: %SystemBoolean, null
+    __38_intnl_SystemBoolean: %SystemBoolean, null
+    __37_intnl_SystemBoolean: %SystemBoolean, null
+    __36_intnl_SystemBoolean: %SystemBoolean, null
+    __35_intnl_SystemBoolean: %SystemBoolean, null
+    __34_intnl_SystemBoolean: %SystemBoolean, null
+    __33_intnl_SystemBoolean: %SystemBoolean, null
+    __32_intnl_SystemBoolean: %SystemBoolean, null
+    __31_intnl_SystemBoolean: %SystemBoolean, null
+    __30_intnl_SystemBoolean: %SystemBoolean, null
+    __29_intnl_SystemBoolean: %SystemBoolean, null
+    __28_intnl_SystemBoolean: %SystemBoolean, null
+    __27_intnl_SystemBoolean: %SystemBoolean, null
+    __26_intnl_SystemBoolean: %SystemBoolean, null
+    __25_intnl_SystemBoolean: %SystemBoolean, null
+    __24_intnl_SystemBoolean: %SystemBoolean, null
+    __23_intnl_SystemBoolean: %SystemBoolean, null
+    __22_intnl_SystemBoolean: %SystemBoolean, null
+    __21_intnl_SystemBoolean: %SystemBoolean, null
+    __20_intnl_SystemBoolean: %SystemBoolean, null
+    __19_intnl_SystemBoolean: %SystemBoolean, null
+    __18_intnl_SystemBoolean: %SystemBoolean, null
+    __17_intnl_SystemBoolean: %SystemBoolean, null
+    __16_intnl_SystemBoolean: %SystemBoolean, null
+    __15_intnl_SystemBoolean: %SystemBoolean, null
+    __14_intnl_SystemBoolean: %SystemBoolean, null
+    __13_intnl_SystemBoolean: %SystemBoolean, null
+    __12_intnl_SystemBoolean: %SystemBoolean, null
+    __11_intnl_SystemBoolean: %SystemBoolean, null
+    __10_intnl_SystemBoolean: %SystemBoolean, null
+    __9_intnl_SystemBoolean: %SystemBoolean, null
+    __8_intnl_SystemBoolean: %SystemBoolean, null
+    __7_intnl_SystemBoolean: %SystemBoolean, null
+    __6_intnl_SystemBoolean: %SystemBoolean, null
+    __5_intnl_SystemBoolean: %SystemBoolean, null
+    __4_intnl_SystemBoolean: %SystemBoolean, null
+    __3_intnl_SystemBoolean: %SystemBoolean, null
+    __2_intnl_SystemBoolean: %SystemBoolean, null
+    __1_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __3_intnl_UdonSharpUdonSharpBehaviourArray: %UnityEngineComponentArray, null
+    __2_intnl_UdonSharpUdonSharpBehaviourArray: %UnityEngineComponentArray, null
+    __1_intnl_UdonSharpUdonSharpBehaviourArray: %UnityEngineComponentArray, null
+    __0_intnl_UdonSharpUdonSharpBehaviourArray: %UnityEngineComponentArray, null
+    __4_intnl_SystemInt32: %SystemInt32, null
+    __3_intnl_SystemInt32: %SystemInt32, null
+    __2_intnl_SystemInt32: %SystemInt32, null
+    __1_intnl_SystemInt32: %SystemInt32, null
+    __0_intnl_SystemInt32: %SystemInt32, null
+    __1_intnl_SystemInt32Array: %SystemInt32Array, null
+    __0_intnl_SystemInt32Array: %SystemInt32Array, null
+    __3_intnl_SystemObject: %SystemObject, null
+    __2_intnl_SystemObject: %SystemObject, null
+    __1_intnl_SystemObject: %SystemObject, null
+    __0_intnl_SystemObject: %SystemObject, null
+    __6_intnl_SystemString: %SystemString, null
+    __5_intnl_SystemString: %SystemString, null
+    __4_intnl_SystemString: %SystemString, null
+    __3_intnl_SystemString: %SystemString, null
+    __0_intnl_interpolatedStr_String: %SystemString, null
+    __2_intnl_SystemString: %SystemString, null
+    __1_intnl_SystemString: %SystemString, null
+    __0_intnl_SystemString: %SystemString, null
+    __0_intnl_UdonSharpUdonSharpBehaviour: %VRCUdonUdonBehaviour, null
+    __0_intnl_returnTarget_UInt32: %SystemUInt32, null
+    __2_intnl_VRCSDKBaseVRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __1_intnl_VRCSDKBaseVRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __0_intnl_VRCSDKBaseVRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+
+.data_end
+
+        
+         #  using UdonSharp;
+        
+         #  using UnityEngine;
+        
+         #  using VRC.SDKBase;
+        
+         #  using VRC.Udon;
+        
+         #  using VRC.Udon.Common;
+        
+         #  namespace Guribo.UdonUtils.Runtime.Common.Networking
+        
+         #  [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
+        
+         #  public class SyncedIntegerArray : UdonSharpBehaviour
+.code_start
+        
+         #  [UdonSynced]
+        
+         #  [HideInInspector]
+        
+         #  [Header("Target settings")]
+        
+         #  public string targetVariable = "values";
+        
+         #  [Header("Optional callback events")]
+        
+         #  [Tooltip("Event to fire on all players when the value changes (instantly called on the owner)")]
+        
+         #  public UdonSharpBehaviour[] preSerializationEventListeners;
+        
+         #  [Tooltip("Event to fire on the owner when the value is about to be sent")]
+        
+         #  public UdonSharpBehaviour[] deserializeEventListeners;
+        
+         #  [Tooltip("Event to fire on non-owning players when a value was received (can be the same value)")]
+        
+         #  public UdonSharpBehaviour[] serializedEventListeners;
+        
+         #  [Tooltip("Event to fire on the owner when the value was successfully sent")]
+        
+         #  [Header("Mandatory references")]
+        
+         #  public bool UpdateForAll()
+    .export UpdateForAll
+        
+    UpdateForAll:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var localPlayer = VRC.SDKBase.Networking.LocalPlayer;
+        PUSH, __0_intnl_VRCSDKBaseVRCPlayerApi
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __0_intnl_VRCSDKBaseVRCPlayerApi
+        PUSH, __0_localPlayer_VRCPlayerApi
+        COPY
+        
+         #  if (!udonDebug.Assert(Utilities.IsValid(localPlayer), "Local player invalid", this)
+        PUSH, __0_localPlayer_VRCPlayerApi
+        PUSH, __2_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, udonDebug
+        PUSH, __8_const_intnl_SystemString
+        PUSH, __2_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __9_const_intnl_SystemString
+        PUSH, __7_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __10_const_intnl_SystemString
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __11_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __12_const_intnl_SystemString
+        PUSH, __0_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __0_intnl_SystemObject
+        PUSH, __3_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __3_intnl_SystemBoolean
+        PUSH, __4_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __4_intnl_SystemBoolean
+        PUSH, __1_intnl_SystemBoolean
+        COPY
+        PUSH, __1_intnl_SystemBoolean
+        PUSH, __5_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __5_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x0000027C
+        
+         #  || !udonDebug.Assert(Utilities.IsValid(localPlayer.IsOwner(gameObject)), "Local player is not owner",
+        PUSH, __0_localPlayer_VRCPlayerApi
+        PUSH, __0_this_intnl_UnityEngineGameObject
+        PUSH, __6_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __6_intnl_SystemBoolean
+        PUSH, __7_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        
+         #  this)
+        PUSH, udonDebug
+        PUSH, __8_const_intnl_SystemString
+        PUSH, __7_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __9_const_intnl_SystemString
+        PUSH, __13_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __10_const_intnl_SystemString
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __11_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __12_const_intnl_SystemString
+        PUSH, __1_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __1_intnl_SystemObject
+        PUSH, __8_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __8_intnl_SystemBoolean
+        PUSH, __9_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __1_intnl_SystemBoolean
+        PUSH, __9_intnl_SystemBoolean
+        PUSH, __10_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __10_intnl_SystemBoolean
+        PUSH, __1_intnl_SystemBoolean
+        COPY
+        PUSH, __1_intnl_SystemBoolean
+        PUSH, __0_intnl_SystemBoolean
+        COPY
+        PUSH, __0_intnl_SystemBoolean
+        PUSH, __11_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __11_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000003CC
+        
+         #  || !udonDebug.Assert(Utilities.IsValid(targetBehaviour), "Target UdonBehaviour invalid", this))
+        PUSH, targetBehaviour
+        PUSH, __12_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, udonDebug
+        PUSH, __8_const_intnl_SystemString
+        PUSH, __12_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __9_const_intnl_SystemString
+        PUSH, __14_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __10_const_intnl_SystemString
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __11_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __12_const_intnl_SystemString
+        PUSH, __2_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __2_intnl_SystemObject
+        PUSH, __13_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __13_intnl_SystemBoolean
+        PUSH, __14_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __0_intnl_SystemBoolean
+        PUSH, __14_intnl_SystemBoolean
+        PUSH, __15_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __15_intnl_SystemBoolean
+        PUSH, __0_intnl_SystemBoolean
+        COPY
+        PUSH, __0_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000404
+        
+         #  {
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  Notify(preSerializationEventListeners, targetPreSerialization);
+        PUSH, preSerializationEventListeners
+        PUSH, __0_mp_listeners_UdonSharpBehaviourArray
+        COPY
+        PUSH, targetPreSerialization
+        PUSH, __0_mp_eventName_String
+        COPY
+        PUSH, preSerializationEventListeners
+        PUSH, __0_intnl_UdonSharpUdonSharpBehaviourArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, targetPreSerialization
+        PUSH, __0_intnl_SystemString
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __0_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000CBC
+        
+         #  var value = targetBehaviour.GetProgramVariable(targetVariable);
+        PUSH, targetBehaviour
+        PUSH, targetVariable
+        PUSH, __3_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __3_intnl_SystemObject
+        PUSH, __0_value_Object
+        COPY
+        
+         #  if (value != null)
+        PUSH, __0_value_Object
+        PUSH, __0_const_intnl_SystemObject
+        PUSH, __16_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __16_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000548
+        
+         #  {
+        
+         #  var array = (int[]) value;
+        PUSH, __0_value_Object
+        PUSH, __0_intnl_SystemInt32Array
+        COPY
+        PUSH, __0_intnl_SystemInt32Array
+        PUSH, __0_array_Int32Array
+        COPY
+        
+         #  syncedValue = new int[array.Length];
+        PUSH, __0_array_Int32Array
+        PUSH, __0_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __0_intnl_SystemInt32
+        PUSH, syncedValue
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        
+         #  array.CopyTo(syncedValue, 0);
+        PUSH, __0_array_Int32Array
+        PUSH, syncedValue
+        PUSH, __0_const_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__CopyTo__SystemArray_SystemInt32__SystemVoid"
+        JUMP, 0x0000055C
+        
+         #  else
+        
+         #  {
+        
+         #  syncedValue = null;
+        PUSH, __0_const_intnl_SystemObject
+        PUSH, syncedValue
+        COPY
+        
+         #  UpdateOldValueAndTriggerChangeEvent();
+        PUSH, __1_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000005C0
+        
+         #  RequestSerialization();
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  private void UpdateOldValueAndTriggerChangeEvent()
+    UpdateOldValueAndTriggerChangeEvent:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  Notify(changeEventListeners, targetChangeEvent);
+        PUSH, changeEventListeners
+        PUSH, __0_mp_listeners_UdonSharpBehaviourArray
+        COPY
+        PUSH, targetChangeEvent
+        PUSH, __0_mp_eventName_String
+        COPY
+        PUSH, changeEventListeners
+        PUSH, __1_intnl_UdonSharpUdonSharpBehaviourArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, targetChangeEvent
+        PUSH, __1_intnl_SystemString
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __2_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000CBC
+        
+         #  if (syncedValue != null)
+        PUSH, syncedValue
+        PUSH, __0_const_intnl_SystemInt32Array
+        PUSH, __17_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __17_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000006D0
+        
+         #  {
+        
+         #  var temp = new int[syncedValue.Length];
+        PUSH, syncedValue
+        PUSH, __1_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __1_intnl_SystemInt32
+        PUSH, __1_intnl_SystemInt32Array
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __1_intnl_SystemInt32Array
+        PUSH, __0_temp_Int32Array
+        COPY
+        
+         #  syncedValue.CopyTo(temp, 0);
+        PUSH, syncedValue
+        PUSH, __0_temp_Int32Array
+        PUSH, __0_const_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__CopyTo__SystemArray_SystemInt32__SystemVoid"
+        
+         #  oldValue = temp;
+        PUSH, __0_temp_Int32Array
+        PUSH, oldValue
+        COPY
+        JUMP, 0x000006E4
+        
+         #  else
+        
+         #  {
+        
+         #  oldValue = null;
+        PUSH, __0_const_intnl_SystemObject
+        PUSH, oldValue
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public override void OnDeserialization()
+    .export _onDeserialization
+        
+    _onDeserialization:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var localPlayer = VRC.SDKBase.Networking.LocalPlayer;
+        PUSH, __1_intnl_VRCSDKBaseVRCPlayerApi
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __1_intnl_VRCSDKBaseVRCPlayerApi
+        PUSH, __1_localPlayer_VRCPlayerApi
+        COPY
+        
+         #  if (localPlayer.IsOwner(gameObject)
+        PUSH, __1_localPlayer_VRCPlayerApi
+        PUSH, __0_this_intnl_UnityEngineGameObject
+        PUSH, __20_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __20_intnl_SystemBoolean
+        PUSH, __19_intnl_SystemBoolean
+        COPY
+        PUSH, __19_intnl_SystemBoolean
+        PUSH, __21_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __21_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000007E4
+        
+         #  || !Utilities.IsValid(targetBehaviour)
+        PUSH, targetBehaviour
+        PUSH, __22_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __22_intnl_SystemBoolean
+        PUSH, __23_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __19_intnl_SystemBoolean
+        PUSH, __23_intnl_SystemBoolean
+        PUSH, __24_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __24_intnl_SystemBoolean
+        PUSH, __19_intnl_SystemBoolean
+        COPY
+        PUSH, __19_intnl_SystemBoolean
+        PUSH, __18_intnl_SystemBoolean
+        COPY
+        PUSH, __18_intnl_SystemBoolean
+        PUSH, __25_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __25_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000884
+        
+         #  || !Utilities.IsValid(localPlayer))
+        PUSH, __1_localPlayer_VRCPlayerApi
+        PUSH, __26_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __26_intnl_SystemBoolean
+        PUSH, __27_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __18_intnl_SystemBoolean
+        PUSH, __27_intnl_SystemBoolean
+        PUSH, __28_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __28_intnl_SystemBoolean
+        PUSH, __18_intnl_SystemBoolean
+        COPY
+        PUSH, __18_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000008A8
+        
+         #  {
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  targetBehaviour.SetProgramVariable(targetVariable, syncedValue);
+        PUSH, targetBehaviour
+        PUSH, targetVariable
+        PUSH, syncedValue
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        
+         #  Notify(deserializeEventListeners, targetDeserializeEvent);
+        PUSH, deserializeEventListeners
+        PUSH, __0_mp_listeners_UdonSharpBehaviourArray
+        COPY
+        PUSH, targetDeserializeEvent
+        PUSH, __0_mp_eventName_String
+        COPY
+        PUSH, deserializeEventListeners
+        PUSH, __2_intnl_UdonSharpUdonSharpBehaviourArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, targetDeserializeEvent
+        PUSH, __2_intnl_SystemString
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __3_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000CBC
+        
+         #  UpdateOldValueAndTriggerChangeEvent();
+        PUSH, __4_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000005C0
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public override void OnPostSerialization(SerializationResult result)
+    .export _onPostSerialization
+        
+    _onPostSerialization:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        PUSH, onPostSerializationResult
+        PUSH, __0_mp_result_SerializationResult
+        COPY
+        
+         #  {
+        
+         #  var localPlayer = VRC.SDKBase.Networking.LocalPlayer;
+        PUSH, __2_intnl_VRCSDKBaseVRCPlayerApi
+        EXTERN, "VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi"
+        PUSH, __2_intnl_VRCSDKBaseVRCPlayerApi
+        PUSH, __2_localPlayer_VRCPlayerApi
+        COPY
+        
+         #  if (!(localPlayer.IsOwner(gameObject)
+        PUSH, __2_localPlayer_VRCPlayerApi
+        PUSH, __0_this_intnl_UnityEngineGameObject
+        PUSH, __31_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__IsOwner__UnityEngineGameObject__SystemBoolean"
+        PUSH, __31_intnl_SystemBoolean
+        PUSH, __30_intnl_SystemBoolean
+        COPY
+        PUSH, __30_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000A1C
+        
+         #  && Utilities.IsValid(targetBehaviour)
+        PUSH, targetBehaviour
+        PUSH, __32_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __30_intnl_SystemBoolean
+        PUSH, __32_intnl_SystemBoolean
+        PUSH, __33_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __33_intnl_SystemBoolean
+        PUSH, __30_intnl_SystemBoolean
+        COPY
+        PUSH, __30_intnl_SystemBoolean
+        PUSH, __29_intnl_SystemBoolean
+        COPY
+        PUSH, __29_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000A8C
+        
+         #  && Utilities.IsValid(localPlayer)))
+        PUSH, __2_localPlayer_VRCPlayerApi
+        PUSH, __34_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __29_intnl_SystemBoolean
+        PUSH, __34_intnl_SystemBoolean
+        PUSH, __35_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __35_intnl_SystemBoolean
+        PUSH, __29_intnl_SystemBoolean
+        COPY
+        PUSH, __29_intnl_SystemBoolean
+        PUSH, __36_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __36_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000AF4
+        
+         #  {
+        
+         #  Debug.LogWarning($"SyncedInteger.OnPostSerialization: aborting", this);
+        PUSH, __15_const_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, __0_intnl_interpolatedStr_String
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray
+        EXTERN, "UnityEngineDebug.__LogWarning__SystemObject_UnityEngineObject__SystemVoid"
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  if (!result.success)
+        PUSH, __0_mp_result_SerializationResult
+        PUSH, __37_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonSerializationResult.__get_success__SystemBoolean"
+        PUSH, __37_intnl_SystemBoolean
+        PUSH, __38_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __38_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000B84
+        
+         #  {
+        
+         #  Debug.LogWarning($"SyncedInteger.OnPostSerialization: Serialization failed, trying again", this);
+        PUSH, __16_const_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, __0_intnl_interpolatedStr_String
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray
+        EXTERN, "UnityEngineDebug.__LogWarning__SystemObject_UnityEngineObject__SystemVoid"
+        
+         #  RequestSerialization();
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonNetworkingSyncedIntegerArray
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid"
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  Debug.Log($"SyncedInteger.OnPostSerialization: Serialized {result.byteCount} bytes");
+        PUSH, __17_const_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, __0_mp_result_SerializationResult
+        PUSH, __2_intnl_SystemInt32
+        EXTERN, "VRCUdonCommonSerializationResult.__get_byteCount__SystemInt32"
+        PUSH, __2_intnl_SystemInt32
+        PUSH, __3_intnl_SystemString
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __0_intnl_interpolatedStr_String
+        PUSH, __3_intnl_SystemString
+        PUSH, __4_intnl_SystemString
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __4_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, __0_intnl_interpolatedStr_String
+        PUSH, __18_const_intnl_SystemString
+        PUSH, __5_intnl_SystemString
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __5_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, __0_intnl_interpolatedStr_String
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        
+         #  Notify(serializedEventListeners, targetSerializedEvent);
+        PUSH, serializedEventListeners
+        PUSH, __0_mp_listeners_UdonSharpBehaviourArray
+        COPY
+        PUSH, targetSerializedEvent
+        PUSH, __0_mp_eventName_String
+        COPY
+        PUSH, serializedEventListeners
+        PUSH, __3_intnl_UdonSharpUdonSharpBehaviourArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, targetSerializedEvent
+        PUSH, __6_intnl_SystemString
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __5_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000CBC
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  internal void Notify(UdonSharpBehaviour[] listeners, string eventName)
+    Notify:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (listeners != null && !string.IsNullOrEmpty(eventName))
+        PUSH, __0_mp_listeners_UdonSharpBehaviourArray
+        PUSH, __0_const_intnl_UnityEngineComponentArray
+        PUSH, __40_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __40_intnl_SystemBoolean
+        PUSH, __39_intnl_SystemBoolean
+        COPY
+        PUSH, __39_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000D64
+        PUSH, __0_mp_eventName_String
+        PUSH, __41_intnl_SystemBoolean
+        EXTERN, "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean"
+        PUSH, __41_intnl_SystemBoolean
+        PUSH, __42_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __39_intnl_SystemBoolean
+        PUSH, __42_intnl_SystemBoolean
+        PUSH, __43_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __43_intnl_SystemBoolean
+        PUSH, __39_intnl_SystemBoolean
+        COPY
+        PUSH, __39_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000E6C
+        
+         #  {
+        
+         #  foreach (var preSerializationEventListener in listeners)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __3_intnl_SystemInt32
+        COPY
+        PUSH, __0_mp_listeners_UdonSharpBehaviourArray
+        PUSH, __4_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __3_intnl_SystemInt32
+        PUSH, __4_intnl_SystemInt32
+        PUSH, __44_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __44_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000E6C
+        PUSH, __0_mp_listeners_UdonSharpBehaviourArray
+        PUSH, __3_intnl_SystemInt32
+        PUSH, __0_intnl_UdonSharpUdonSharpBehaviour
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __0_intnl_UdonSharpUdonSharpBehaviour
+        PUSH, __0_preSerializationEventListener_UdonSharpBehaviour
+        COPY
+        
+         #  {
+        
+         #  if (Utilities.IsValid(preSerializationEventListener))
+        PUSH, __0_preSerializationEventListener_UdonSharpBehaviour
+        PUSH, __45_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __45_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000E44
+        
+         #  {
+        
+         #  preSerializationEventListener.SendCustomEvent(eventName);
+        PUSH, __0_preSerializationEventListener_UdonSharpBehaviour
+        PUSH, __0_mp_eventName_String
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, __3_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __3_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000DA0
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+.code_end
