@@ -1,0 +1,1322 @@
+.data_start
+
+    .export players
+    .export udonDebug
+
+    __refl_const_intnl_udonTypeID: %SystemInt64, null
+    __refl_const_intnl_udonTypeName: %SystemString, null
+    players: %SystemInt32Array, null
+    udonDebug: %VRCUdonUdonBehaviour, null
+    __0_this_intnl_GuriboUdonUtilsRuntimeCommonPlayerList: %VRCUdonUdonBehaviour, this
+    __0_playerNotInList_Boolean: %SystemBoolean, null
+    __2_i_Int32: %SystemInt32, null
+    __0_moveIndex_Int32: %SystemInt32, null
+    __0_valid_Int32: %SystemInt32, null
+    __0_tmp_Int32: %SystemInt32, null
+    __0_next_Int32: %SystemInt32, null
+    __0_j_Int32: %SystemInt32, null
+    __1_i_Int32: %SystemInt32, null
+    __0_arrayLength_Int32: %SystemInt32, null
+    __0_i_Int32: %SystemInt32, null
+    __0_copyLength_Int32: %SystemInt32, null
+    __1_validPlayers_Int32: %SystemInt32, null
+    __0_playerIndex_Int32: %SystemInt32, null
+    __0_count_Int32: %SystemInt32, null
+    __0_validPlayers_Int32: %SystemInt32, null
+    __0_mp_length_Int32: %SystemInt32, null
+    __0_temp_Int32Array: %SystemInt32Array, null
+    __1_tempArray_Int32Array: %SystemInt32Array, null
+    __0_tempArray_Int32Array: %SystemInt32Array, null
+    __0_mp_list_Int32Array: %SystemInt32Array, null
+    __1_mp_array_Int32Array: %SystemInt32Array, null
+    __0_mp_array_Int32Array: %SystemInt32Array, null
+    __0_mp_playerApi_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __1_mp_player_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __0_mp_player_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __1_const_intnl_SystemBoolean: %SystemBoolean, null
+    __0_const_intnl_SystemBoolean: %SystemBoolean, null
+    __2_const_intnl_SystemInt32: %SystemInt32, null
+    __1_const_intnl_SystemInt32: %SystemInt32, null
+    __0_const_intnl_SystemInt32: %SystemInt32, null
+    __0_const_intnl_SystemInt32Array: %SystemInt32Array, null
+    __0_const_intnl_SystemObject: %SystemObject, null
+    __8_const_intnl_SystemString: %SystemString, null
+    __7_const_intnl_SystemString: %SystemString, null
+    __6_const_intnl_SystemString: %SystemString, null
+    __5_const_intnl_SystemString: %SystemString, null
+    __4_const_intnl_SystemString: %SystemString, null
+    __3_const_intnl_SystemString: %SystemString, null
+    __2_const_intnl_SystemString: %SystemString, null
+    __1_const_intnl_SystemString: %SystemString, null
+    __0_const_intnl_SystemString: %SystemString, null
+    __11_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __10_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __9_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __8_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __7_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __6_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __5_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __4_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __3_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __2_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __1_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_SystemUInt32: %SystemUInt32, null
+    __45_intnl_SystemBoolean: %SystemBoolean, null
+    __44_intnl_SystemBoolean: %SystemBoolean, null
+    __43_intnl_SystemBoolean: %SystemBoolean, null
+    __42_intnl_SystemBoolean: %SystemBoolean, null
+    __41_intnl_SystemBoolean: %SystemBoolean, null
+    __40_intnl_SystemBoolean: %SystemBoolean, null
+    __39_intnl_SystemBoolean: %SystemBoolean, null
+    __38_intnl_SystemBoolean: %SystemBoolean, null
+    __37_intnl_SystemBoolean: %SystemBoolean, null
+    __36_intnl_SystemBoolean: %SystemBoolean, null
+    __35_intnl_SystemBoolean: %SystemBoolean, null
+    __34_intnl_SystemBoolean: %SystemBoolean, null
+    __33_intnl_SystemBoolean: %SystemBoolean, null
+    __32_intnl_SystemBoolean: %SystemBoolean, null
+    __31_intnl_SystemBoolean: %SystemBoolean, null
+    __30_intnl_SystemBoolean: %SystemBoolean, null
+    __29_intnl_SystemBoolean: %SystemBoolean, null
+    __28_intnl_SystemBoolean: %SystemBoolean, null
+    __27_intnl_SystemBoolean: %SystemBoolean, null
+    __26_intnl_SystemBoolean: %SystemBoolean, null
+    __25_intnl_SystemBoolean: %SystemBoolean, null
+    __24_intnl_SystemBoolean: %SystemBoolean, null
+    __23_intnl_SystemBoolean: %SystemBoolean, null
+    __22_intnl_SystemBoolean: %SystemBoolean, null
+    __21_intnl_SystemBoolean: %SystemBoolean, null
+    __20_intnl_SystemBoolean: %SystemBoolean, null
+    __19_intnl_SystemBoolean: %SystemBoolean, null
+    __18_intnl_SystemBoolean: %SystemBoolean, null
+    __17_intnl_SystemBoolean: %SystemBoolean, null
+    __16_intnl_SystemBoolean: %SystemBoolean, null
+    __15_intnl_SystemBoolean: %SystemBoolean, null
+    __14_intnl_SystemBoolean: %SystemBoolean, null
+    __13_intnl_SystemBoolean: %SystemBoolean, null
+    __12_intnl_SystemBoolean: %SystemBoolean, null
+    __11_intnl_SystemBoolean: %SystemBoolean, null
+    __10_intnl_SystemBoolean: %SystemBoolean, null
+    __9_intnl_SystemBoolean: %SystemBoolean, null
+    __8_intnl_SystemBoolean: %SystemBoolean, null
+    __7_intnl_SystemBoolean: %SystemBoolean, null
+    __6_intnl_SystemBoolean: %SystemBoolean, null
+    __5_intnl_SystemBoolean: %SystemBoolean, null
+    __4_intnl_SystemBoolean: %SystemBoolean, null
+    __3_intnl_SystemBoolean: %SystemBoolean, null
+    __2_intnl_SystemBoolean: %SystemBoolean, null
+    __1_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_SystemBoolean: %SystemBoolean, null
+    __3_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __2_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __1_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __0_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __36_intnl_SystemInt32: %SystemInt32, null
+    __35_intnl_SystemInt32: %SystemInt32, null
+    __34_intnl_SystemInt32: %SystemInt32, null
+    __33_intnl_SystemInt32: %SystemInt32, null
+    __32_intnl_SystemInt32: %SystemInt32, null
+    __31_intnl_SystemInt32: %SystemInt32, null
+    __30_intnl_SystemInt32: %SystemInt32, null
+    __29_intnl_SystemInt32: %SystemInt32, null
+    __28_intnl_SystemInt32: %SystemInt32, null
+    __27_intnl_SystemInt32: %SystemInt32, null
+    __26_intnl_SystemInt32: %SystemInt32, null
+    __25_intnl_SystemInt32: %SystemInt32, null
+    __24_intnl_SystemInt32: %SystemInt32, null
+    __23_intnl_SystemInt32: %SystemInt32, null
+    __22_intnl_SystemInt32: %SystemInt32, null
+    __21_intnl_SystemInt32: %SystemInt32, null
+    __20_intnl_SystemInt32: %SystemInt32, null
+    __19_intnl_SystemInt32: %SystemInt32, null
+    __18_intnl_SystemInt32: %SystemInt32, null
+    __17_intnl_SystemInt32: %SystemInt32, null
+    __16_intnl_SystemInt32: %SystemInt32, null
+    __15_intnl_SystemInt32: %SystemInt32, null
+    __14_intnl_SystemInt32: %SystemInt32, null
+    __13_intnl_SystemInt32: %SystemInt32, null
+    __12_intnl_SystemInt32: %SystemInt32, null
+    __11_intnl_SystemInt32: %SystemInt32, null
+    __10_intnl_SystemInt32: %SystemInt32, null
+    __9_intnl_SystemInt32: %SystemInt32, null
+    __8_intnl_SystemInt32: %SystemInt32, null
+    __7_intnl_SystemInt32: %SystemInt32, null
+    __6_intnl_SystemInt32: %SystemInt32, null
+    __5_intnl_SystemInt32: %SystemInt32, null
+    __4_intnl_SystemInt32: %SystemInt32, null
+    __3_intnl_SystemInt32: %SystemInt32, null
+    __2_intnl_SystemInt32: %SystemInt32, null
+    __1_intnl_SystemInt32: %SystemInt32, null
+    __0_intnl_SystemInt32: %SystemInt32, null
+    __1_intnl_returnValSymbol_Int32: %SystemInt32, null
+    __0_intnl_returnValSymbol_Int32: %SystemInt32, null
+    __6_intnl_SystemInt32Array: %SystemInt32Array, null
+    __5_intnl_SystemInt32Array: %SystemInt32Array, null
+    __4_intnl_SystemInt32Array: %SystemInt32Array, null
+    __3_intnl_SystemInt32Array: %SystemInt32Array, null
+    __2_intnl_SystemInt32Array: %SystemInt32Array, null
+    __1_intnl_SystemInt32Array: %SystemInt32Array, null
+    __0_intnl_SystemInt32Array: %SystemInt32Array, null
+    __1_intnl_SystemObject: %SystemObject, null
+    __0_intnl_SystemObject: %SystemObject, null
+    __3_intnl_SystemString: %SystemString, null
+    __2_intnl_SystemString: %SystemString, null
+    __1_intnl_SystemString: %SystemString, null
+    __0_intnl_SystemString: %SystemString, null
+    __0_intnl_interpolatedStr_String: %SystemString, null
+    __0_intnl_returnTarget_UInt32: %SystemUInt32, null
+    __0_intnl_VRCSDKBaseVRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+
+.data_end
+
+        
+         #  using System;
+        
+         #  using UdonSharp;
+        
+         #  using UnityEngine;
+        
+         #  using VRC.SDKBase;
+        
+         #  using VRC.Udon;
+        
+         #  namespace Guribo.UdonUtils.Runtime.Common
+        
+         #  [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
+        
+         #  public class PlayerList : UdonSharpBehaviour
+.code_start
+        
+         #  public int[] players = new int[0];
+        
+         #  [Header("Mandatory references")]
+        
+         #  public bool AddPlayer(VRCPlayerApi player)
+    .export AddPlayer
+        
+    AddPlayer:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var validPlayers = ConsolidatePlayerIds(players);
+        PUSH, players
+        PUSH, __0_mp_list_Int32Array
+        COPY
+        PUSH, players
+        PUSH, __0_intnl_SystemInt32Array
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __0_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00001584
+        PUSH, __1_intnl_returnValSymbol_Int32
+        PUSH, __0_validPlayers_Int32
+        COPY
+        
+         #  if (!udonDebug.Assert(Utilities.IsValid(player), "Player invalid", this))
+        PUSH, __0_mp_player_VRCPlayerApi
+        PUSH, __0_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, udonDebug
+        PUSH, __2_const_intnl_SystemString
+        PUSH, __0_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __3_const_intnl_SystemString
+        PUSH, __1_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __4_const_intnl_SystemString
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonPlayerList
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __5_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __6_const_intnl_SystemString
+        PUSH, __0_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __0_intnl_SystemObject
+        PUSH, __1_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __1_intnl_SystemBoolean
+        PUSH, __2_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __2_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000190
+        
+         #  {
+        
+         #  ResizePlayerArray(validPlayers);
+        PUSH, __0_validPlayers_Int32
+        PUSH, __0_mp_length_Int32
+        COPY
+        PUSH, __1_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000D60
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  if (players == null || players.Length == 0)
+        PUSH, players
+        PUSH, __0_const_intnl_SystemInt32Array
+        PUSH, __4_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __4_intnl_SystemBoolean
+        PUSH, __3_intnl_SystemBoolean
+        COPY
+        PUSH, __3_intnl_SystemBoolean
+        PUSH, __5_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __5_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000258
+        PUSH, players
+        PUSH, __0_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __0_intnl_SystemInt32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __6_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __3_intnl_SystemBoolean
+        PUSH, __6_intnl_SystemBoolean
+        PUSH, __7_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __7_intnl_SystemBoolean
+        PUSH, __3_intnl_SystemBoolean
+        COPY
+        PUSH, __3_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000308
+        
+         #  {
+        
+         #  players = new[]
+        
+         #  player.playerId
+        PUSH, __0_mp_player_VRCPlayerApi
+        PUSH, __1_intnl_SystemInt32
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __2_intnl_SystemInt32Array
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __2_intnl_SystemInt32Array
+        PUSH, __1_intnl_SystemInt32Array
+        COPY
+        PUSH, __1_intnl_SystemInt32Array
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __1_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __1_intnl_SystemInt32Array
+        PUSH, players
+        COPY
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var playerNotInList = Array.BinarySearch(players, player.playerId) < 0;
+        PUSH, __0_mp_player_VRCPlayerApi
+        PUSH, __1_intnl_SystemInt32
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, players
+        PUSH, __1_intnl_SystemInt32
+        PUSH, __2_intnl_SystemInt32
+        EXTERN, "SystemArray.__BinarySearch__SystemArray_SystemObject__SystemInt32"
+        PUSH, __2_intnl_SystemInt32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __8_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __8_intnl_SystemBoolean
+        PUSH, __0_playerNotInList_Boolean
+        COPY
+        
+         #  if (!udonDebug.Assert(playerNotInList, $"Player {player.playerId} already in list", this))
+        PUSH, __7_const_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, __0_mp_player_VRCPlayerApi
+        PUSH, __3_intnl_SystemInt32
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, __3_intnl_SystemInt32
+        PUSH, __0_intnl_SystemString
+        EXTERN, "SystemInt32.__ToString__SystemString"
+        PUSH, __0_intnl_interpolatedStr_String
+        PUSH, __0_intnl_SystemString
+        PUSH, __1_intnl_SystemString
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __1_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, __0_intnl_interpolatedStr_String
+        PUSH, __8_const_intnl_SystemString
+        PUSH, __2_intnl_SystemString
+        EXTERN, "SystemString.__op_Addition__SystemString_SystemString__SystemString"
+        PUSH, __2_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        COPY
+        PUSH, udonDebug
+        PUSH, __2_const_intnl_SystemString
+        PUSH, __0_playerNotInList_Boolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __3_const_intnl_SystemString
+        PUSH, __0_intnl_interpolatedStr_String
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __4_const_intnl_SystemString
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonPlayerList
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, __0_intnl_interpolatedStr_String
+        PUSH, __3_intnl_SystemString
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, udonDebug
+        PUSH, __5_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __6_const_intnl_SystemString
+        PUSH, __1_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __1_intnl_SystemObject
+        PUSH, __9_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __9_intnl_SystemBoolean
+        PUSH, __10_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __10_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000558
+        
+         #  {
+        
+         #  ResizePlayerArray(validPlayers);
+        PUSH, __0_validPlayers_Int32
+        PUSH, __0_mp_length_Int32
+        COPY
+        PUSH, __2_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000D60
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var tempArray = new int[validPlayers + 1];
+        PUSH, __0_validPlayers_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __4_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __4_intnl_SystemInt32
+        PUSH, __1_intnl_SystemInt32Array
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __1_intnl_SystemInt32Array
+        PUSH, __0_tempArray_Int32Array
+        COPY
+        
+         #  tempArray[0] = player.playerId;
+        PUSH, __0_mp_player_VRCPlayerApi
+        PUSH, __5_intnl_SystemInt32
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, __0_tempArray_Int32Array
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __5_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        
+         #  Array.ConstrainedCopy(players,0,tempArray,1, validPlayers);
+        PUSH, players
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_tempArray_Int32Array
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_validPlayers_Int32
+        EXTERN, "SystemArray.__ConstrainedCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        
+         #  players = tempArray;
+        PUSH, __0_tempArray_Int32Array
+        PUSH, players
+        COPY
+        
+         #  Sort(players);
+        PUSH, players
+        PUSH, __0_mp_array_Int32Array
+        COPY
+        PUSH, players
+        PUSH, __2_intnl_SystemInt32Array
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __3_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000011B8
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public bool RemovePlayer(VRCPlayerApi player)
+    .export RemovePlayer
+        
+    RemovePlayer:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var count = ConsolidatePlayerIds(players);
+        PUSH, players
+        PUSH, __0_mp_list_Int32Array
+        COPY
+        PUSH, players
+        PUSH, __3_intnl_SystemInt32Array
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __4_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00001584
+        PUSH, __1_intnl_returnValSymbol_Int32
+        PUSH, __0_count_Int32
+        COPY
+        
+         #  if (!Utilities.IsValid(player)
+        PUSH, __1_mp_player_VRCPlayerApi
+        PUSH, __12_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __12_intnl_SystemBoolean
+        PUSH, __13_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __13_intnl_SystemBoolean
+        PUSH, __11_intnl_SystemBoolean
+        COPY
+        PUSH, __11_intnl_SystemBoolean
+        PUSH, __14_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __14_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000007B8
+        
+         #  || DiscardInvalid() == 0)
+        PUSH, __5_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000C78
+        PUSH, __0_intnl_returnValSymbol_Int32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __15_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __11_intnl_SystemBoolean
+        PUSH, __15_intnl_SystemBoolean
+        PUSH, __16_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __16_intnl_SystemBoolean
+        PUSH, __11_intnl_SystemBoolean
+        COPY
+        PUSH, __11_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000814
+        
+         #  {
+        
+         #  ResizePlayerArray(count);
+        PUSH, __0_count_Int32
+        PUSH, __0_mp_length_Int32
+        COPY
+        PUSH, __6_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000D60
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __1_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var playerIndex = Array.BinarySearch(players, player.playerId);
+        PUSH, __1_mp_player_VRCPlayerApi
+        PUSH, __6_intnl_SystemInt32
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, players
+        PUSH, __6_intnl_SystemInt32
+        PUSH, __7_intnl_SystemInt32
+        EXTERN, "SystemArray.__BinarySearch__SystemArray_SystemObject__SystemInt32"
+        PUSH, __7_intnl_SystemInt32
+        PUSH, __0_playerIndex_Int32
+        COPY
+        
+         #  if (playerIndex < 0)
+        PUSH, __0_playerIndex_Int32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __17_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __17_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000008DC
+        
+         #  {
+        
+         #  ResizePlayerArray(count);
+        PUSH, __0_count_Int32
+        PUSH, __0_mp_length_Int32
+        COPY
+        PUSH, __7_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000D60
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __1_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var tempArray = new int[count - 1];
+        PUSH, __0_count_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __8_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __8_intnl_SystemInt32
+        PUSH, __4_intnl_SystemInt32Array
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __4_intnl_SystemInt32Array
+        PUSH, __1_tempArray_Int32Array
+        COPY
+        
+         #  if (playerIndex > 0)
+        PUSH, __0_playerIndex_Int32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __18_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __18_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000988
+        
+         #  {
+        
+         #  Array.ConstrainedCopy(players, 0, tempArray, 0, playerIndex);
+        PUSH, players
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __1_tempArray_Int32Array
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_playerIndex_Int32
+        EXTERN, "SystemArray.__ConstrainedCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        
+         #  if (tempArray.Length - playerIndex > 0)
+        PUSH, __1_tempArray_Int32Array
+        PUSH, __9_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __9_intnl_SystemInt32
+        PUSH, __0_playerIndex_Int32
+        PUSH, __10_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __10_intnl_SystemInt32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __19_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __19_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000A78
+        
+         #  {
+        
+         #  Array.ConstrainedCopy(players, playerIndex + 1, tempArray, playerIndex, tempArray.Length - playerIndex);
+        PUSH, __0_playerIndex_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __11_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __1_tempArray_Int32Array
+        PUSH, __12_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __12_intnl_SystemInt32
+        PUSH, __0_playerIndex_Int32
+        PUSH, __13_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, players
+        PUSH, __11_intnl_SystemInt32
+        PUSH, __1_tempArray_Int32Array
+        PUSH, __0_playerIndex_Int32
+        PUSH, __13_intnl_SystemInt32
+        EXTERN, "SystemArray.__ConstrainedCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        
+         #  players = tempArray;
+        PUSH, __1_tempArray_Int32Array
+        PUSH, players
+        COPY
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __1_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public bool Contains(VRCPlayerApi playerApi)
+    .export Contains
+        
+    Contains:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (!Utilities.IsValid(playerApi)
+        PUSH, __0_mp_playerApi_VRCPlayerApi
+        PUSH, __21_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __21_intnl_SystemBoolean
+        PUSH, __22_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __22_intnl_SystemBoolean
+        PUSH, __20_intnl_SystemBoolean
+        COPY
+        PUSH, __20_intnl_SystemBoolean
+        PUSH, __23_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __23_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000BA0
+        
+         #  || DiscardInvalid() == 0)
+        PUSH, __8_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000C78
+        PUSH, __0_intnl_returnValSymbol_Int32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __24_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __20_intnl_SystemBoolean
+        PUSH, __24_intnl_SystemBoolean
+        PUSH, __25_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __25_intnl_SystemBoolean
+        PUSH, __20_intnl_SystemBoolean
+        COPY
+        PUSH, __20_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000BD8
+        
+         #  {
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __2_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  return Array.BinarySearch(players, playerApi.playerId) > -1;
+        PUSH, __0_mp_playerApi_VRCPlayerApi
+        PUSH, __14_intnl_SystemInt32
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32"
+        PUSH, players
+        PUSH, __14_intnl_SystemInt32
+        PUSH, __15_intnl_SystemInt32
+        EXTERN, "SystemArray.__BinarySearch__SystemArray_SystemObject__SystemInt32"
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __16_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __15_intnl_SystemInt32
+        PUSH, __16_intnl_SystemInt32
+        PUSH, __2_intnl_returnValSymbol_Boolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public int DiscardInvalid()
+    .export DiscardInvalid
+        
+    DiscardInvalid:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var validPlayers = ConsolidatePlayerIds(players);
+        PUSH, players
+        PUSH, __0_mp_list_Int32Array
+        COPY
+        PUSH, players
+        PUSH, __5_intnl_SystemInt32Array
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __9_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00001584
+        PUSH, __1_intnl_returnValSymbol_Int32
+        PUSH, __1_validPlayers_Int32
+        COPY
+        
+         #  ResizePlayerArray(validPlayers);
+        PUSH, __1_validPlayers_Int32
+        PUSH, __0_mp_length_Int32
+        COPY
+        PUSH, __10_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000D60
+        
+         #  return validPlayers;
+        PUSH, __1_validPlayers_Int32
+        PUSH, __0_intnl_returnValSymbol_Int32
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public void Clear()
+    .export Clear
+        
+    Clear:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  players = new int[0];
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, players
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  internal bool ResizePlayerArray(int length)
+    ResizePlayerArray:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (length < 0)
+        PUSH, __0_mp_length_Int32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __26_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __26_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000DB8
+        
+         #  {
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __3_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  if (players == null || players.Length == 0)
+        PUSH, players
+        PUSH, __0_const_intnl_SystemInt32Array
+        PUSH, __28_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __28_intnl_SystemBoolean
+        PUSH, __27_intnl_SystemBoolean
+        COPY
+        PUSH, __27_intnl_SystemBoolean
+        PUSH, __29_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __29_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000E80
+        PUSH, players
+        PUSH, __17_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __17_intnl_SystemInt32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __30_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __27_intnl_SystemBoolean
+        PUSH, __30_intnl_SystemBoolean
+        PUSH, __31_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __31_intnl_SystemBoolean
+        PUSH, __27_intnl_SystemBoolean
+        COPY
+        PUSH, __27_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000F98
+        
+         #  {
+        
+         #  players = new int[length];
+        PUSH, __0_mp_length_Int32
+        PUSH, players
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        
+         #  for (var i = 0; i < players.Length; i++)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_i_Int32
+        COPY
+        PUSH, players
+        PUSH, __18_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __0_i_Int32
+        PUSH, __18_intnl_SystemInt32
+        PUSH, __32_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __32_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000F70
+        
+         #  {
+        
+         #  players[i] = Int32.MaxValue;
+        PUSH, __19_intnl_SystemInt32
+        EXTERN, "SystemInt32.__get_MaxValue__SystemInt32"
+        PUSH, players
+        PUSH, __0_i_Int32
+        PUSH, __19_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __0_i_Int32
+        PUSH, __19_intnl_SystemInt32
+        COPY
+        PUSH, __19_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_i_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000EBC
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __3_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var copyLength = length > players.Length ? players.Length : length;
+        PUSH, players
+        PUSH, __18_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __0_mp_length_Int32
+        PUSH, __18_intnl_SystemInt32
+        PUSH, __32_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __32_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001014
+        PUSH, players
+        PUSH, __20_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __20_intnl_SystemInt32
+        PUSH, __19_intnl_SystemInt32
+        COPY
+        JUMP, 0x00001028
+        PUSH, __0_mp_length_Int32
+        PUSH, __19_intnl_SystemInt32
+        COPY
+        PUSH, __19_intnl_SystemInt32
+        PUSH, __0_copyLength_Int32
+        COPY
+        
+         #  var temp = new int[length];
+        PUSH, __0_mp_length_Int32
+        PUSH, __6_intnl_SystemInt32Array
+        EXTERN, "SystemInt32Array.__ctor__SystemInt32__SystemInt32Array"
+        PUSH, __6_intnl_SystemInt32Array
+        PUSH, __0_temp_Int32Array
+        COPY
+        
+         #  Array.ConstrainedCopy(players, 0, temp, 0, copyLength);
+        PUSH, players
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_temp_Int32Array
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_copyLength_Int32
+        EXTERN, "SystemArray.__ConstrainedCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        
+         #  players = temp;
+        PUSH, __0_temp_Int32Array
+        PUSH, players
+        COPY
+        
+         #  for (var i = copyLength; i < players.Length; i++)
+        PUSH, __0_copyLength_Int32
+        PUSH, __0_i_Int32
+        COPY
+        PUSH, players
+        PUSH, __21_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __0_i_Int32
+        PUSH, __21_intnl_SystemInt32
+        PUSH, __33_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __33_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001174
+        
+         #  {
+        
+         #  players[i] = Int32.MaxValue;
+        PUSH, __22_intnl_SystemInt32
+        EXTERN, "SystemInt32.__get_MaxValue__SystemInt32"
+        PUSH, players
+        PUSH, __0_i_Int32
+        PUSH, __22_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __0_i_Int32
+        PUSH, __22_intnl_SystemInt32
+        COPY
+        PUSH, __22_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_i_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000010C0
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __3_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  internal void Sort(int[] array)
+    Sort:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (array == null || array.Length < 2)
+        PUSH, __0_mp_array_Int32Array
+        PUSH, __0_const_intnl_SystemInt32Array
+        PUSH, __35_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __35_intnl_SystemBoolean
+        PUSH, __34_intnl_SystemBoolean
+        COPY
+        PUSH, __34_intnl_SystemBoolean
+        PUSH, __36_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __36_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001280
+        PUSH, __0_mp_array_Int32Array
+        PUSH, __23_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __23_intnl_SystemInt32
+        PUSH, __2_const_intnl_SystemInt32
+        PUSH, __37_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __34_intnl_SystemBoolean
+        PUSH, __37_intnl_SystemBoolean
+        PUSH, __38_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __38_intnl_SystemBoolean
+        PUSH, __34_intnl_SystemBoolean
+        COPY
+        PUSH, __34_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000012A4
+        
+         #  {
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  BubbleSort(array);
+        PUSH, __0_mp_array_Int32Array
+        PUSH, __1_mp_array_Int32Array
+        COPY
+        PUSH, __11_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000012E4
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  internal void BubbleSort(int[] array)
+    BubbleSort:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  var arrayLength = array.Length;
+        PUSH, __1_mp_array_Int32Array
+        PUSH, __24_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __24_intnl_SystemInt32
+        PUSH, __0_arrayLength_Int32
+        COPY
+        
+         #  for (var i = 0; i < arrayLength; i++)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __1_i_Int32
+        COPY
+        PUSH, __1_i_Int32
+        PUSH, __0_arrayLength_Int32
+        PUSH, __39_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __39_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001568
+        
+         #  {
+        
+         #  for (var j = 0; j < arrayLength - 1; j++)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_j_Int32
+        COPY
+        PUSH, __0_arrayLength_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __25_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __0_j_Int32
+        PUSH, __25_intnl_SystemInt32
+        PUSH, __40_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __40_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x0000152C
+        
+         #  {
+        
+         #  var next = j + 1;
+        PUSH, __0_j_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __26_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __26_intnl_SystemInt32
+        PUSH, __0_next_Int32
+        COPY
+        
+         #  if (array[j] > array[next])
+        PUSH, __1_mp_array_Int32Array
+        PUSH, __0_j_Int32
+        PUSH, __27_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __1_mp_array_Int32Array
+        PUSH, __0_next_Int32
+        PUSH, __28_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __27_intnl_SystemInt32
+        PUSH, __28_intnl_SystemInt32
+        PUSH, __41_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __41_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000014F0
+        
+         #  {
+        
+         #  var tmp = array[j];
+        PUSH, __1_mp_array_Int32Array
+        PUSH, __0_j_Int32
+        PUSH, __29_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __29_intnl_SystemInt32
+        PUSH, __0_tmp_Int32
+        COPY
+        
+         #  array[j] = array[next];
+        PUSH, __1_mp_array_Int32Array
+        PUSH, __0_next_Int32
+        PUSH, __30_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __1_mp_array_Int32Array
+        PUSH, __0_j_Int32
+        PUSH, __30_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        
+         #  array[next] = tmp;
+        PUSH, __1_mp_array_Int32Array
+        PUSH, __0_next_Int32
+        PUSH, __0_tmp_Int32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        PUSH, __0_j_Int32
+        PUSH, __26_intnl_SystemInt32
+        COPY
+        PUSH, __26_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_j_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001368
+        PUSH, __1_i_Int32
+        PUSH, __25_intnl_SystemInt32
+        COPY
+        PUSH, __25_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __1_i_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001324
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  internal int ConsolidatePlayerIds(int[] list)
+    ConsolidatePlayerIds:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (list == null)
+        PUSH, __0_mp_list_Int32Array
+        PUSH, __0_const_intnl_SystemInt32Array
+        PUSH, __42_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __42_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000015DC
+        
+         #  {
+        
+         #  return 0;
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __1_intnl_returnValSymbol_Int32
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var valid = 0;
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_valid_Int32
+        COPY
+        
+         #  var moveIndex = -1;
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __31_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __31_intnl_SystemInt32
+        PUSH, __0_moveIndex_Int32
+        COPY
+        
+         #  for (var i = 0; i < list.Length; i++)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __2_i_Int32
+        COPY
+        PUSH, __0_mp_list_Int32Array
+        PUSH, __32_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__get_Length__SystemInt32"
+        PUSH, __2_i_Int32
+        PUSH, __32_intnl_SystemInt32
+        PUSH, __43_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __43_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000018A0
+        
+         #  {
+        
+         #  if (Utilities.IsValid(VRCPlayerApi.GetPlayerById(list[i])))
+        PUSH, __0_mp_list_Int32Array
+        PUSH, __2_i_Int32
+        PUSH, __33_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __33_intnl_SystemInt32
+        PUSH, __0_intnl_VRCSDKBaseVRCPlayerApi
+        EXTERN, "VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi"
+        PUSH, __0_intnl_VRCSDKBaseVRCPlayerApi
+        PUSH, __44_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __44_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000017D8
+        
+         #  {
+        
+         #  ++valid;
+        PUSH, __0_valid_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_valid_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        
+         #  if (moveIndex != -1)
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __34_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __0_moveIndex_Int32
+        PUSH, __34_intnl_SystemInt32
+        PUSH, __45_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __45_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000017D0
+        
+         #  {
+        
+         #  list[moveIndex] = list[i];
+        PUSH, __0_mp_list_Int32Array
+        PUSH, __2_i_Int32
+        PUSH, __35_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Get__SystemInt32__SystemInt32"
+        PUSH, __0_mp_list_Int32Array
+        PUSH, __0_moveIndex_Int32
+        PUSH, __35_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        
+         #  list[i] = int.MaxValue;
+        PUSH, __36_intnl_SystemInt32
+        EXTERN, "SystemInt32.__get_MaxValue__SystemInt32"
+        PUSH, __0_mp_list_Int32Array
+        PUSH, __2_i_Int32
+        PUSH, __36_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        
+         #  ++moveIndex;
+        PUSH, __0_moveIndex_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_moveIndex_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001864
+        
+         #  else
+        
+         #  {
+        
+         #  list[i] = int.MaxValue;
+        PUSH, __34_intnl_SystemInt32
+        EXTERN, "SystemInt32.__get_MaxValue__SystemInt32"
+        PUSH, __0_mp_list_Int32Array
+        PUSH, __2_i_Int32
+        PUSH, __34_intnl_SystemInt32
+        EXTERN, "SystemInt32Array.__Set__SystemInt32_SystemInt32__SystemVoid"
+        
+         #  if (moveIndex == -1)
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __35_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __0_moveIndex_Int32
+        PUSH, __35_intnl_SystemInt32
+        PUSH, __45_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __45_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001864
+        
+         #  {
+        
+         #  moveIndex = i;
+        PUSH, __2_i_Int32
+        PUSH, __0_moveIndex_Int32
+        COPY
+        PUSH, __2_i_Int32
+        PUSH, __33_intnl_SystemInt32
+        COPY
+        PUSH, __33_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __2_i_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001630
+        
+         #  return valid;
+        PUSH, __0_valid_Int32
+        PUSH, __1_intnl_returnValSymbol_Int32
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+.code_end

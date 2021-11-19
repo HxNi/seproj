@@ -1,0 +1,51 @@
+.data_start
+
+
+    __refl_const_intnl_udonTypeID: %SystemInt64, null
+    __refl_const_intnl_udonTypeName: %SystemString, null
+    __0_mp_condition_Boolean: %SystemBoolean, null
+    __0_mp_context_Object: %UnityEngineObject, null
+    __0_mp_message_String: %SystemString, null
+    __0_const_intnl_SystemUInt32: %SystemUInt32, null
+    __0_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __0_intnl_returnTarget_UInt32: %SystemUInt32, null
+
+.data_end
+
+        
+         #  using UdonSharp;
+        
+         #  using UnityEngine;
+        
+         #  using VRC.SDKBase;
+        
+         #  using VRC.Udon;
+        
+         #  namespace Guribo.UdonUtils.Runtime.Common
+        
+         #  [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
+        
+         #  public class UdonDebug : UdonSharpBehaviour
+.code_start
+        
+         #  public bool Assert(bool condition, string message, Object context)
+    .export Assert
+        
+    Assert:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  return condition;
+        PUSH, __0_mp_condition_Boolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+.code_end

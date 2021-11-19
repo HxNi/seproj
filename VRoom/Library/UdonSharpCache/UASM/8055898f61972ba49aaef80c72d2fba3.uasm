@@ -1,0 +1,219 @@
+.data_start
+
+    .export udonDebug
+    .export reflectionProbe
+    .export updateInterval
+
+    __refl_const_intnl_udonTypeID: %SystemInt64, null
+    __refl_const_intnl_udonTypeName: %SystemString, null
+    reflectionProbe: %UnityEngineReflectionProbe, null
+    updateInterval: %SystemSingle, null
+    udonDebug: %VRCUdonUdonBehaviour, null
+    __0_this_intnl_UnityEngineGameObject: %UnityEngineGameObject, this
+    __0_this_intnl_GuriboUdonUtilsRuntimeCommonReflectionProbeController: %VRCUdonUdonBehaviour, this
+    __0_const_intnl_VRCUdonCommonEnumsEventTiming: %VRCUdonCommonEnumsEventTiming, null
+    __1_const_intnl_SystemInt32: %SystemInt32, null
+    __0_const_intnl_SystemInt32: %SystemInt32, null
+    __7_const_intnl_SystemString: %SystemString, null
+    __6_const_intnl_SystemString: %SystemString, null
+    __5_const_intnl_SystemString: %SystemString, null
+    __4_const_intnl_SystemString: %SystemString, null
+    __3_const_intnl_SystemString: %SystemString, null
+    __2_const_intnl_SystemString: %SystemString, null
+    __1_const_intnl_SystemString: %SystemString, null
+    __0_const_intnl_SystemString: %SystemString, null
+    __0_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_SystemUInt32: %SystemUInt32, null
+    __11_intnl_SystemBoolean: %SystemBoolean, null
+    __10_intnl_SystemBoolean: %SystemBoolean, null
+    __9_intnl_SystemBoolean: %SystemBoolean, null
+    __8_intnl_SystemBoolean: %SystemBoolean, null
+    __7_intnl_SystemBoolean: %SystemBoolean, null
+    __6_intnl_SystemBoolean: %SystemBoolean, null
+    __5_intnl_SystemBoolean: %SystemBoolean, null
+    __4_intnl_SystemBoolean: %SystemBoolean, null
+    __3_intnl_SystemBoolean: %SystemBoolean, null
+    __2_intnl_SystemBoolean: %SystemBoolean, null
+    __1_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_SystemInt32: %SystemInt32, null
+    __1_intnl_SystemObject: %SystemObject, null
+    __0_intnl_SystemObject: %SystemObject, null
+    __0_intnl_returnTarget_UInt32: %SystemUInt32, null
+
+.data_end
+
+        
+         #  using UdonSharp;
+        
+         #  using UnityEngine;
+        
+         #  using VRC.SDKBase;
+        
+         #  namespace Guribo.UdonUtils.Runtime.Common
+        
+         #  [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
+        
+         #  public class ReflectionProbeController : UdonSharpBehaviour
+.code_start
+        
+         #  [Header("Libraries")]
+        
+         #  public ReflectionProbe reflectionProbe;
+        
+         #  [Range(0, 60)]
+        
+         #  public void OnEnable()
+    .export _onEnable
+        
+    _onEnable:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (!udonDebug.Assert(Utilities.IsValid(reflectionProbe), "reflectionProbe invalid", this))
+        PUSH, reflectionProbe
+        PUSH, __0_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, udonDebug
+        PUSH, __2_const_intnl_SystemString
+        PUSH, __0_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __3_const_intnl_SystemString
+        PUSH, __1_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __4_const_intnl_SystemString
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonReflectionProbeController
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __5_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __6_const_intnl_SystemString
+        PUSH, __0_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __0_intnl_SystemObject
+        PUSH, __1_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __1_intnl_SystemBoolean
+        PUSH, __2_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __2_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x0000010C
+        
+         #  {
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  UpdateReflections();
+        PUSH, __0_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000138
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public void UpdateReflections()
+    .export UpdateReflections
+        
+    UpdateReflections:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (!(gameObject.activeInHierarchy
+        PUSH, __0_this_intnl_UnityEngineGameObject
+        PUSH, __5_intnl_SystemBoolean
+        EXTERN, "UnityEngineGameObject.__get_activeInHierarchy__SystemBoolean"
+        PUSH, __5_intnl_SystemBoolean
+        PUSH, __4_intnl_SystemBoolean
+        COPY
+        PUSH, __4_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000001C0
+        
+         #  && enabled
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonReflectionProbeController
+        PUSH, __6_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__get_enabled__SystemBoolean"
+        PUSH, __4_intnl_SystemBoolean
+        PUSH, __6_intnl_SystemBoolean
+        PUSH, __7_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __7_intnl_SystemBoolean
+        PUSH, __4_intnl_SystemBoolean
+        COPY
+        PUSH, __4_intnl_SystemBoolean
+        PUSH, __3_intnl_SystemBoolean
+        COPY
+        PUSH, __3_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000002E0
+        
+         #  && udonDebug.Assert(Utilities.IsValid(reflectionProbe), "reflectionProbe invalid", this)))
+        PUSH, reflectionProbe
+        PUSH, __8_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, udonDebug
+        PUSH, __2_const_intnl_SystemString
+        PUSH, __8_intnl_SystemBoolean
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __3_const_intnl_SystemString
+        PUSH, __1_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __4_const_intnl_SystemString
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonReflectionProbeController
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __5_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, udonDebug
+        PUSH, __6_const_intnl_SystemString
+        PUSH, __1_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __1_intnl_SystemObject
+        PUSH, __9_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __3_intnl_SystemBoolean
+        PUSH, __9_intnl_SystemBoolean
+        PUSH, __10_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __10_intnl_SystemBoolean
+        PUSH, __3_intnl_SystemBoolean
+        COPY
+        PUSH, __3_intnl_SystemBoolean
+        PUSH, __11_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __11_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x0000031C
+        
+         #  {
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  reflectionProbe.RenderProbe();
+        PUSH, reflectionProbe
+        PUSH, __0_intnl_SystemInt32
+        EXTERN, "UnityEngineReflectionProbe.__RenderProbe__SystemInt32"
+        
+         #  SendCustomEventDelayedSeconds(nameof(UpdateReflections), updateInterval);
+        PUSH, __0_this_intnl_GuriboUdonUtilsRuntimeCommonReflectionProbeController
+        PUSH, __7_const_intnl_SystemString
+        PUSH, updateInterval
+        PUSH, __0_const_intnl_VRCUdonCommonEnumsEventTiming
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid"
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+.code_end

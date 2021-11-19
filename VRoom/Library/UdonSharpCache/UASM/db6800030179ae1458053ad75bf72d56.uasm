@@ -1,0 +1,1147 @@
+.data_start
+
+
+    __refl_const_intnl_udonTypeID: %SystemInt64, null
+    __refl_const_intnl_udonTypeName: %SystemString, null
+    BetterPlayerAudioOverrides: %UnityEngineComponentArray, null
+    __0_removed_Boolean: %SystemBoolean, null
+    __0_tempList2_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_tempList_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __1_mp_list_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_mp_list_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_mp_betterPlayerAudioOverrides_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_mp_originalList_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_mp_tempList_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __1_i_Int32: %SystemInt32, null
+    __0_i_Int32: %SystemInt32, null
+    __0_moveIndex_Int32: %SystemInt32, null
+    __0_valid_Int32: %SystemInt32, null
+    __0_index_Int32: %SystemInt32, null
+    __0_remaining_Int32: %SystemInt32, null
+    __0_insertIndex_Int32: %SystemInt32, null
+    __0_slotsNeeded_Int32: %SystemInt32, null
+    __0_mp_index_Int32: %SystemInt32, null
+    __0_mp_insertIndex_Int32: %SystemInt32, null
+    __2_betterPlayerAudioOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __1_betterPlayerAudioOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __0_betterPlayerAudioOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __1_mp_betterPlayerAudioOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __0_mp_betterPlayerAudioOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __2_mp_voiceOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __1_mp_voiceOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __0_mp_voiceOverride_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __1_const_intnl_SystemBoolean: %SystemBoolean, null
+    __0_const_intnl_SystemBoolean: %SystemBoolean, null
+    __0_const_intnl_UnityEngineComponentArray: %UnityEngineComponentArray, null
+    __1_const_intnl_SystemInt32: %SystemInt32, null
+    __0_const_intnl_SystemInt32: %SystemInt32, null
+    __0_const_intnl_SystemObject: %SystemObject, null
+    __0_const_intnl_SystemString: %SystemString, null
+    __6_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __5_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __4_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __3_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __2_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __1_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_exitJumpLoc_UInt32: %SystemUInt32, null
+    __0_const_intnl_SystemUInt32: %SystemUInt32, null
+    __41_intnl_SystemBoolean: %SystemBoolean, null
+    __40_intnl_SystemBoolean: %SystemBoolean, null
+    __39_intnl_SystemBoolean: %SystemBoolean, null
+    __38_intnl_SystemBoolean: %SystemBoolean, null
+    __37_intnl_SystemBoolean: %SystemBoolean, null
+    __36_intnl_SystemBoolean: %SystemBoolean, null
+    __35_intnl_SystemBoolean: %SystemBoolean, null
+    __34_intnl_SystemBoolean: %SystemBoolean, null
+    __33_intnl_SystemBoolean: %SystemBoolean, null
+    __32_intnl_SystemBoolean: %SystemBoolean, null
+    __31_intnl_SystemBoolean: %SystemBoolean, null
+    __30_intnl_SystemBoolean: %SystemBoolean, null
+    __29_intnl_SystemBoolean: %SystemBoolean, null
+    __28_intnl_SystemBoolean: %SystemBoolean, null
+    __27_intnl_SystemBoolean: %SystemBoolean, null
+    __26_intnl_SystemBoolean: %SystemBoolean, null
+    __25_intnl_SystemBoolean: %SystemBoolean, null
+    __24_intnl_SystemBoolean: %SystemBoolean, null
+    __23_intnl_SystemBoolean: %SystemBoolean, null
+    __22_intnl_SystemBoolean: %SystemBoolean, null
+    __21_intnl_SystemBoolean: %SystemBoolean, null
+    __20_intnl_SystemBoolean: %SystemBoolean, null
+    __19_intnl_SystemBoolean: %SystemBoolean, null
+    __18_intnl_SystemBoolean: %SystemBoolean, null
+    __17_intnl_SystemBoolean: %SystemBoolean, null
+    __16_intnl_SystemBoolean: %SystemBoolean, null
+    __15_intnl_SystemBoolean: %SystemBoolean, null
+    __14_intnl_SystemBoolean: %SystemBoolean, null
+    __13_intnl_SystemBoolean: %SystemBoolean, null
+    __12_intnl_SystemBoolean: %SystemBoolean, null
+    __11_intnl_SystemBoolean: %SystemBoolean, null
+    __10_intnl_SystemBoolean: %SystemBoolean, null
+    __9_intnl_SystemBoolean: %SystemBoolean, null
+    __8_intnl_SystemBoolean: %SystemBoolean, null
+    __7_intnl_SystemBoolean: %SystemBoolean, null
+    __6_intnl_SystemBoolean: %SystemBoolean, null
+    __5_intnl_SystemBoolean: %SystemBoolean, null
+    __4_intnl_SystemBoolean: %SystemBoolean, null
+    __3_intnl_SystemBoolean: %SystemBoolean, null
+    __2_intnl_SystemBoolean: %SystemBoolean, null
+    __1_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_SystemBoolean: %SystemBoolean, null
+    __1_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __0_intnl_returnValSymbol_Boolean: %SystemBoolean, null
+    __7_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __6_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __5_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __4_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_intnl_UnityEngineComponentArray: %UnityEngineComponentArray, null
+    __3_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __2_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __1_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __0_intnl_returnValSymbol_BetterPlayerAudioOverrideArray: %UnityEngineComponentArray, null
+    __22_intnl_SystemInt32: %SystemInt32, null
+    __21_intnl_SystemInt32: %SystemInt32, null
+    __20_intnl_SystemInt32: %SystemInt32, null
+    __19_intnl_SystemInt32: %SystemInt32, null
+    __18_intnl_SystemInt32: %SystemInt32, null
+    __17_intnl_SystemInt32: %SystemInt32, null
+    __16_intnl_SystemInt32: %SystemInt32, null
+    __15_intnl_SystemInt32: %SystemInt32, null
+    __14_intnl_SystemInt32: %SystemInt32, null
+    __13_intnl_SystemInt32: %SystemInt32, null
+    __12_intnl_SystemInt32: %SystemInt32, null
+    __11_intnl_SystemInt32: %SystemInt32, null
+    __10_intnl_SystemInt32: %SystemInt32, null
+    __9_intnl_SystemInt32: %SystemInt32, null
+    __8_intnl_SystemInt32: %SystemInt32, null
+    __7_intnl_SystemInt32: %SystemInt32, null
+    __6_intnl_SystemInt32: %SystemInt32, null
+    __5_intnl_SystemInt32: %SystemInt32, null
+    __4_intnl_SystemInt32: %SystemInt32, null
+    __3_intnl_SystemInt32: %SystemInt32, null
+    __2_intnl_SystemInt32: %SystemInt32, null
+    __1_intnl_SystemInt32: %SystemInt32, null
+    __0_intnl_SystemInt32: %SystemInt32, null
+    __2_intnl_returnValSymbol_Int32: %SystemInt32, null
+    __1_intnl_returnValSymbol_Int32: %SystemInt32, null
+    __0_intnl_returnValSymbol_Int32: %SystemInt32, null
+    __1_intnl_SystemObject: %SystemObject, null
+    __0_intnl_SystemObject: %SystemObject, null
+    __6_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __5_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __4_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __3_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __2_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __1_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __1_intnl_returnValSymbol_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __0_intnl_returnValSymbol_BetterPlayerAudioOverride: %VRCUdonUdonBehaviour, null
+    __0_intnl_returnTarget_UInt32: %SystemUInt32, null
+
+.data_end
+
+        
+         #  using System;
+        
+         #  using UdonSharp;
+        
+         #  using UnityEngine;
+        
+         #  using VRC.SDKBase;
+        
+         #  namespace Guribo.UdonBetterAudio.Runtime
+        
+         #  [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
+        
+         #  public class BetterPlayerAudioOverrideList : UdonSharpBehaviour
+.code_start
+        
+         #  internal BetterPlayerAudioOverride[] BetterPlayerAudioOverrides;
+        
+         #  public bool AddOverride(BetterPlayerAudioOverride voiceOverride)
+    .export AddOverride
+        
+    AddOverride:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (!Utilities.IsValid(voiceOverride))
+        PUSH, __0_mp_voiceOverride_BetterPlayerAudioOverride
+        PUSH, __0_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __0_intnl_SystemBoolean
+        PUSH, __1_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __1_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000070
+        
+         #  {
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  if (BetterPlayerAudioOverrides == null || BetterPlayerAudioOverrides.Length == 0)
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_const_intnl_UnityEngineComponentArray
+        PUSH, __3_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __3_intnl_SystemBoolean
+        PUSH, __2_intnl_SystemBoolean
+        COPY
+        PUSH, __2_intnl_SystemBoolean
+        PUSH, __4_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __4_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000138
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __0_intnl_SystemInt32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __5_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __2_intnl_SystemBoolean
+        PUSH, __5_intnl_SystemBoolean
+        PUSH, __6_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __6_intnl_SystemBoolean
+        PUSH, __2_intnl_SystemBoolean
+        COPY
+        PUSH, __2_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000001D0
+        
+         #  {
+        
+         #  BetterPlayerAudioOverrides = new[] {voiceOverride};
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_intnl_UnityEngineComponentArray
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, __0_intnl_UnityEngineComponentArray
+        PUSH, __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        COPY
+        PUSH, __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_mp_voiceOverride_BetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        PUSH, __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        PUSH, BetterPlayerAudioOverrides
+        COPY
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  foreach (var betterPlayerAudioOverride in BetterPlayerAudioOverrides)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __1_intnl_SystemInt32
+        COPY
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __2_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __1_intnl_SystemInt32
+        PUSH, __2_intnl_SystemInt32
+        PUSH, __7_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __7_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000002E0
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __1_intnl_SystemInt32
+        PUSH, __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        PUSH, __0_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        COPY
+        
+         #  {
+        
+         #  if (betterPlayerAudioOverride == voiceOverride)
+        PUSH, __0_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        PUSH, __0_mp_voiceOverride_BetterPlayerAudioOverride
+        PUSH, __8_intnl_SystemBoolean
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __8_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000002B8
+        
+         #  {
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __1_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __1_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x000001FC
+        
+         #  Remove(BetterPlayerAudioOverrides, voiceOverride);
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __1_mp_list_BetterPlayerAudioOverrideArray
+        COPY
+        PUSH, __0_mp_voiceOverride_BetterPlayerAudioOverride
+        PUSH, __0_mp_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        COPY
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __0_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000011E0
+        
+         #  var slotsNeeded = Consolidate(BetterPlayerAudioOverrides) + 1;
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        COPY
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __1_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __1_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000EB8
+        PUSH, __1_intnl_returnValSymbol_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __1_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __1_intnl_SystemInt32
+        PUSH, __0_slotsNeeded_Int32
+        COPY
+        
+         #  var insertIndex = GetInsertIndex(BetterPlayerAudioOverrides, voiceOverride);
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_mp_betterPlayerAudioOverrides_BetterPlayerAudioOverrideArray
+        COPY
+        PUSH, __0_mp_voiceOverride_BetterPlayerAudioOverride
+        PUSH, __2_mp_voiceOverride_BetterPlayerAudioOverride
+        COPY
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __2_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __2_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000B94
+        PUSH, __0_intnl_returnValSymbol_Int32
+        PUSH, __0_insertIndex_Int32
+        COPY
+        
+         #  var tempList = new BetterPlayerAudioOverride[slotsNeeded];
+        PUSH, __0_slotsNeeded_Int32
+        PUSH, __3_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, __3_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        PUSH, __0_tempList_BetterPlayerAudioOverrideArray
+        COPY
+        
+         #  if (insertIndex > 0)
+        PUSH, __0_insertIndex_Int32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __7_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __7_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000484
+        
+         #  {
+        
+         #  Array.ConstrainedCopy(BetterPlayerAudioOverrides, 0, tempList, 0, insertIndex);
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_tempList_BetterPlayerAudioOverrideArray
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_insertIndex_Int32
+        EXTERN, "SystemArray.__ConstrainedCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        
+         #  tempList[insertIndex] = voiceOverride;
+        PUSH, __0_tempList_BetterPlayerAudioOverrideArray
+        PUSH, __0_insertIndex_Int32
+        PUSH, __0_mp_voiceOverride_BetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        
+         #  if (slotsNeeded - insertIndex > 1)
+        PUSH, __0_slotsNeeded_Int32
+        PUSH, __0_insertIndex_Int32
+        PUSH, __2_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __2_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __8_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __8_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000584
+        
+         #  {
+        
+         #  Array.ConstrainedCopy(BetterPlayerAudioOverrides,
+        
+         #  insertIndex,
+        
+         #  tempList,
+        
+         #  insertIndex +1,
+        PUSH, __0_insertIndex_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __3_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        
+         #  slotsNeeded - insertIndex - 1);
+        PUSH, __0_slotsNeeded_Int32
+        PUSH, __0_insertIndex_Int32
+        PUSH, __4_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __4_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __5_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_insertIndex_Int32
+        PUSH, __0_tempList_BetterPlayerAudioOverrideArray
+        PUSH, __3_intnl_SystemInt32
+        PUSH, __5_intnl_SystemInt32
+        EXTERN, "SystemArray.__ConstrainedCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid"
+        
+         #  BetterPlayerAudioOverrides = tempList;
+        PUSH, __0_tempList_BetterPlayerAudioOverrideArray
+        PUSH, BetterPlayerAudioOverrides
+        COPY
+        
+         #  return true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __0_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public BetterPlayerAudioOverride[] InsertNewOverride(BetterPlayerAudioOverride voiceOverride, int insertIndex,
+        
+         #  BetterPlayerAudioOverride[] tempList, BetterPlayerAudioOverride[] originalList)
+    .export InsertNewOverride
+        
+    InsertNewOverride:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (insertIndex >= originalList.Length)
+        PUSH, __0_mp_originalList_BetterPlayerAudioOverrideArray
+        PUSH, __6_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __0_mp_insertIndex_Int32
+        PUSH, __6_intnl_SystemInt32
+        PUSH, __9_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __9_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000704
+        
+         #  {
+        
+         #  var tempList2 = new BetterPlayerAudioOverride[insertIndex + 1];
+        PUSH, __0_mp_insertIndex_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __7_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __7_intnl_SystemInt32
+        PUSH, __4_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        EXTERN, "UnityEngineComponentArray.__ctor__SystemInt32__UnityEngineComponentArray"
+        PUSH, __4_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        PUSH, __0_tempList2_BetterPlayerAudioOverrideArray
+        COPY
+        
+         #  tempList.CopyTo(tempList2, 0);
+        PUSH, __0_mp_tempList_BetterPlayerAudioOverrideArray
+        PUSH, __0_tempList2_BetterPlayerAudioOverrideArray
+        PUSH, __0_const_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__CopyTo__SystemArray_SystemInt32__SystemVoid"
+        
+         #  tempList2[tempList2.Length - 1] = voiceOverride;
+        PUSH, __0_tempList2_BetterPlayerAudioOverrideArray
+        PUSH, __8_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __8_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __9_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Subtraction__SystemInt32_SystemInt32__SystemInt32"
+        PUSH, __0_tempList2_BetterPlayerAudioOverrideArray
+        PUSH, __9_intnl_SystemInt32
+        PUSH, __1_mp_voiceOverride_BetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        
+         #  tempList = tempList2;
+        PUSH, __0_tempList2_BetterPlayerAudioOverrideArray
+        PUSH, __0_mp_tempList_BetterPlayerAudioOverrideArray
+        COPY
+        JUMP, 0x00000724
+        
+         #  else
+        
+         #  {
+        
+         #  tempList[insertIndex] = voiceOverride;
+        PUSH, __0_mp_tempList_BetterPlayerAudioOverrideArray
+        PUSH, __0_mp_insertIndex_Int32
+        PUSH, __1_mp_voiceOverride_BetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        
+         #  return tempList;
+        PUSH, __0_mp_tempList_BetterPlayerAudioOverrideArray
+        PUSH, __0_intnl_returnValSymbol_BetterPlayerAudioOverrideArray
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public BetterPlayerAudioOverride GetMaxPriority()
+    .export GetMaxPriority
+        
+    GetMaxPriority:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  return Get(0);
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_mp_index_Int32
+        COPY
+        PUSH, __3_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000007D0
+        PUSH, __1_intnl_returnValSymbol_BetterPlayerAudioOverride
+        PUSH, __0_intnl_returnValSymbol_BetterPlayerAudioOverride
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public BetterPlayerAudioOverride Get(int index)
+    .export Get
+        
+    Get:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (index < 0
+        PUSH, __0_mp_index_Int32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __13_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __13_intnl_SystemBoolean
+        PUSH, __12_intnl_SystemBoolean
+        COPY
+        PUSH, __12_intnl_SystemBoolean
+        PUSH, __14_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __14_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000880
+        
+         #  || BetterPlayerAudioOverrides == null
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_const_intnl_UnityEngineComponentArray
+        PUSH, __15_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __12_intnl_SystemBoolean
+        PUSH, __15_intnl_SystemBoolean
+        PUSH, __16_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __16_intnl_SystemBoolean
+        PUSH, __12_intnl_SystemBoolean
+        COPY
+        PUSH, __12_intnl_SystemBoolean
+        PUSH, __11_intnl_SystemBoolean
+        COPY
+        PUSH, __11_intnl_SystemBoolean
+        PUSH, __17_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __17_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000928
+        
+         #  || BetterPlayerAudioOverrides.Length == 0
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __10_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __10_intnl_SystemInt32
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __18_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __11_intnl_SystemBoolean
+        PUSH, __18_intnl_SystemBoolean
+        PUSH, __19_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __19_intnl_SystemBoolean
+        PUSH, __11_intnl_SystemBoolean
+        COPY
+        PUSH, __11_intnl_SystemBoolean
+        PUSH, __10_intnl_SystemBoolean
+        COPY
+        PUSH, __10_intnl_SystemBoolean
+        PUSH, __20_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __20_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000009D0
+        
+         #  || index >= BetterPlayerAudioOverrides.Length)
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __11_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __0_mp_index_Int32
+        PUSH, __11_intnl_SystemInt32
+        PUSH, __21_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __10_intnl_SystemBoolean
+        PUSH, __21_intnl_SystemBoolean
+        PUSH, __22_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __22_intnl_SystemBoolean
+        PUSH, __10_intnl_SystemBoolean
+        COPY
+        PUSH, __10_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000A08
+        
+         #  {
+        
+         #  return null;
+        PUSH, __0_const_intnl_SystemObject
+        PUSH, __1_intnl_returnValSymbol_BetterPlayerAudioOverride
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var betterPlayerAudioOverride = BetterPlayerAudioOverrides[index];
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_mp_index_Int32
+        PUSH, __1_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __1_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        PUSH, __1_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        COPY
+        
+         #  if (Utilities.IsValid(betterPlayerAudioOverride))
+        PUSH, __1_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        PUSH, __23_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __23_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000A8C
+        
+         #  {
+        
+         #  return betterPlayerAudioOverride;
+        PUSH, __1_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        PUSH, __1_intnl_returnValSymbol_BetterPlayerAudioOverride
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var remaining = Consolidate(BetterPlayerAudioOverrides);
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        COPY
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __5_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __4_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000EB8
+        PUSH, __1_intnl_returnValSymbol_Int32
+        PUSH, __0_remaining_Int32
+        COPY
+        
+         #  if (index < remaining)
+        PUSH, __0_mp_index_Int32
+        PUSH, __0_remaining_Int32
+        PUSH, __24_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __24_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000B50
+        
+         #  {
+        
+         #  return BetterPlayerAudioOverrides[index];
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_mp_index_Int32
+        PUSH, __2_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __2_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        PUSH, __1_intnl_returnValSymbol_BetterPlayerAudioOverride
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  return null;
+        PUSH, __0_const_intnl_SystemObject
+        PUSH, __1_intnl_returnValSymbol_BetterPlayerAudioOverride
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public int GetInsertIndex(BetterPlayerAudioOverride[] betterPlayerAudioOverrides,
+        
+         #  BetterPlayerAudioOverride voiceOverride)
+    .export GetInsertIndex
+        
+    GetInsertIndex:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (betterPlayerAudioOverrides == null
+        PUSH, __0_mp_betterPlayerAudioOverrides_BetterPlayerAudioOverrideArray
+        PUSH, __0_const_intnl_UnityEngineComponentArray
+        PUSH, __26_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __26_intnl_SystemBoolean
+        PUSH, __25_intnl_SystemBoolean
+        COPY
+        PUSH, __25_intnl_SystemBoolean
+        PUSH, __27_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __27_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000C54
+        
+         #  || !Utilities.IsValid(voiceOverride))
+        PUSH, __2_mp_voiceOverride_BetterPlayerAudioOverride
+        PUSH, __28_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __28_intnl_SystemBoolean
+        PUSH, __29_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __25_intnl_SystemBoolean
+        PUSH, __29_intnl_SystemBoolean
+        PUSH, __30_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __30_intnl_SystemBoolean
+        PUSH, __25_intnl_SystemBoolean
+        COPY
+        PUSH, __25_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000C90
+        
+         #  {
+        
+         #  return -1;
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_intnl_returnValSymbol_Int32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var index = 0;
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_index_Int32
+        COPY
+        
+         #  foreach (var betterPlayerAudioOverride in betterPlayerAudioOverrides)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __12_intnl_SystemInt32
+        COPY
+        PUSH, __0_mp_betterPlayerAudioOverrides_BetterPlayerAudioOverrideArray
+        PUSH, __13_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __12_intnl_SystemInt32
+        PUSH, __13_intnl_SystemInt32
+        PUSH, __31_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __31_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000E74
+        PUSH, __0_mp_betterPlayerAudioOverrides_BetterPlayerAudioOverrideArray
+        PUSH, __12_intnl_SystemInt32
+        PUSH, __3_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __3_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        PUSH, __2_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        COPY
+        
+         #  {
+        
+         #  if (!Utilities.IsValid(betterPlayerAudioOverride))
+        PUSH, __2_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        PUSH, __32_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __32_intnl_SystemBoolean
+        PUSH, __33_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __33_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000D7C
+        
+         #  {
+        
+         #  continue;
+        JUMP, 0x00000E4C
+        
+         #  if (betterPlayerAudioOverride.priority > voiceOverride.priority)
+        PUSH, __2_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        PUSH, __0_const_intnl_SystemString
+        PUSH, __0_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __0_intnl_SystemObject
+        PUSH, __15_intnl_SystemInt32
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __2_mp_voiceOverride_BetterPlayerAudioOverride
+        PUSH, __0_const_intnl_SystemString
+        PUSH, __1_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __1_intnl_SystemObject
+        PUSH, __17_intnl_SystemInt32
+        EXTERN, "SystemConvert.__ToInt32__SystemObject__SystemInt32"
+        PUSH, __15_intnl_SystemInt32
+        PUSH, __17_intnl_SystemInt32
+        PUSH, __34_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __34_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000E44
+        
+         #  {
+        
+         #  ++index;
+        PUSH, __0_index_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_index_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        
+         #  continue;
+        JUMP, 0x00000E4C
+        
+         #  break;
+        JUMP, 0x00000E74
+        PUSH, __12_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __12_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000CD0
+        
+         #  return index;
+        PUSH, __0_index_Int32
+        PUSH, __0_intnl_returnValSymbol_Int32
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public int Consolidate(BetterPlayerAudioOverride[] list)
+    .export Consolidate
+        
+    Consolidate:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (list == null)
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __0_const_intnl_UnityEngineComponentArray
+        PUSH, __35_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __35_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000F10
+        
+         #  {
+        
+         #  return 0;
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __1_intnl_returnValSymbol_Int32
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var valid = 0;
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_valid_Int32
+        COPY
+        
+         #  var moveIndex = -1;
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __18_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __18_intnl_SystemInt32
+        PUSH, __0_moveIndex_Int32
+        COPY
+        
+         #  for (var i = 0; i < list.Length; i++)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __0_i_Int32
+        COPY
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __19_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __0_i_Int32
+        PUSH, __19_intnl_SystemInt32
+        PUSH, __36_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __36_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x0000119C
+        
+         #  {
+        
+         #  if (Utilities.IsValid(list[i]))
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __0_i_Int32
+        PUSH, __4_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __4_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        PUSH, __37_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __37_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000010E4
+        
+         #  {
+        
+         #  ++valid;
+        PUSH, __0_valid_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_valid_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        
+         #  if (moveIndex != -1)
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __20_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __0_moveIndex_Int32
+        PUSH, __20_intnl_SystemInt32
+        PUSH, __38_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __38_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000010DC
+        
+         #  {
+        
+         #  list[moveIndex] = list[i];
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __0_i_Int32
+        PUSH, __5_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __0_moveIndex_Int32
+        PUSH, __5_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        
+         #  list[i] = null;
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __0_i_Int32
+        PUSH, __0_const_intnl_SystemObject
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        
+         #  ++moveIndex;
+        PUSH, __0_moveIndex_Int32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_moveIndex_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001160
+        
+         #  else
+        
+         #  {
+        
+         #  list[i] = null;
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __0_i_Int32
+        PUSH, __0_const_intnl_SystemObject
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        
+         #  if (moveIndex == -1)
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __20_intnl_SystemInt32
+        EXTERN, "SystemInt32.__op_UnaryMinus__SystemInt32__SystemInt32"
+        PUSH, __0_moveIndex_Int32
+        PUSH, __20_intnl_SystemInt32
+        PUSH, __38_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __38_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001160
+        
+         #  {
+        
+         #  moveIndex = i;
+        PUSH, __0_i_Int32
+        PUSH, __0_moveIndex_Int32
+        COPY
+        PUSH, __0_i_Int32
+        PUSH, __20_intnl_SystemInt32
+        COPY
+        PUSH, __20_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __0_i_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00000F64
+        
+         #  return valid;
+        PUSH, __0_valid_Int32
+        PUSH, __1_intnl_returnValSymbol_Int32
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public bool Remove(BetterPlayerAudioOverride[] list, BetterPlayerAudioOverride betterPlayerAudioOverride)
+    .export Remove
+        
+    Remove:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (list == null)
+        PUSH, __1_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __0_const_intnl_UnityEngineComponentArray
+        PUSH, __39_intnl_SystemBoolean
+        EXTERN, "SystemObject.__op_Equality__SystemObject_SystemObject__SystemBoolean"
+        PUSH, __39_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001238
+        
+         #  {
+        
+         #  return false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __1_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  var removed = false;
+        PUSH, __0_const_intnl_SystemBoolean
+        PUSH, __0_removed_Boolean
+        COPY
+        
+         #  for (var i = 0; i < list.Length; i++)
+        PUSH, __0_const_intnl_SystemInt32
+        PUSH, __1_i_Int32
+        COPY
+        PUSH, __1_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __21_intnl_SystemInt32
+        EXTERN, "UnityEngineComponentArray.__get_Length__SystemInt32"
+        PUSH, __1_i_Int32
+        PUSH, __21_intnl_SystemInt32
+        PUSH, __40_intnl_SystemBoolean
+        EXTERN, "SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean"
+        PUSH, __40_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00001368
+        
+         #  {
+        
+         #  if (list[i] == betterPlayerAudioOverride)
+        PUSH, __1_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __1_i_Int32
+        PUSH, __6_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        EXTERN, "SystemObjectArray.__Get__SystemInt32__SystemObject"
+        PUSH, __6_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverride
+        PUSH, __0_mp_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        PUSH, __41_intnl_SystemBoolean
+        EXTERN, "UnityEngineObject.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean"
+        PUSH, __41_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x0000132C
+        
+         #  {
+        
+         #  list[i] = null;
+        PUSH, __1_mp_list_BetterPlayerAudioOverrideArray
+        PUSH, __1_i_Int32
+        PUSH, __0_const_intnl_SystemObject
+        EXTERN, "SystemObjectArray.__Set__SystemInt32_SystemObject__SystemVoid"
+        
+         #  removed = true;
+        PUSH, __1_const_intnl_SystemBoolean
+        PUSH, __0_removed_Boolean
+        COPY
+        PUSH, __1_i_Int32
+        PUSH, __22_intnl_SystemInt32
+        COPY
+        PUSH, __22_intnl_SystemInt32
+        PUSH, __1_const_intnl_SystemInt32
+        PUSH, __1_i_Int32
+        EXTERN, "SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32"
+        JUMP, 0x00001260
+        
+         #  return removed;
+        PUSH, __0_removed_Boolean
+        PUSH, __1_intnl_returnValSymbol_Boolean
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public int RemoveOverride(BetterPlayerAudioOverride betterPlayerAudioOverride)
+    .export RemoveOverride
+        
+    RemoveOverride:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  Remove(BetterPlayerAudioOverrides, betterPlayerAudioOverride);
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __1_mp_list_BetterPlayerAudioOverrideArray
+        COPY
+        PUSH, __1_mp_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        PUSH, __0_mp_betterPlayerAudioOverride_BetterPlayerAudioOverride
+        COPY
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __6_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __5_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x000011E0
+        
+         #  return Consolidate(BetterPlayerAudioOverrides);
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __0_mp_list_BetterPlayerAudioOverrideArray
+        COPY
+        PUSH, BetterPlayerAudioOverrides
+        PUSH, __7_intnl_GuriboUdonBetterAudioRuntimeBetterPlayerAudioOverrideArray
+        COPY #  Copy-on-write symbol value dirtied
+        PUSH, __6_const_intnl_exitJumpLoc_UInt32
+        JUMP, 0x00000EB8
+        PUSH, __1_intnl_returnValSymbol_Int32
+        PUSH, __2_intnl_returnValSymbol_Int32
+        COPY
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+.code_end

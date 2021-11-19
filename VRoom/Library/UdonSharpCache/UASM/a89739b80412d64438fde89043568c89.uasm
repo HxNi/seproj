@@ -1,0 +1,263 @@
+.data_start
+
+    .export playerAudioOverride
+
+    __refl_const_intnl_udonTypeID: %SystemInt64, null
+    __refl_const_intnl_udonTypeName: %SystemString, null
+    playerAudioOverride: %VRCUdonUdonBehaviour, null
+    onPlayerTriggerExitPlayer: %VRCSDKBaseVRCPlayerApi, null
+    onPlayerTriggerEnterPlayer: %VRCSDKBaseVRCPlayerApi, null
+    __1_mp_player_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __0_mp_player_VRCPlayerApi: %VRCSDKBaseVRCPlayerApi, null
+    __10_const_intnl_SystemString: %SystemString, null
+    __9_const_intnl_SystemString: %SystemString, null
+    __8_const_intnl_SystemString: %SystemString, null
+    __7_const_intnl_SystemString: %SystemString, null
+    __6_const_intnl_SystemString: %SystemString, null
+    __5_const_intnl_SystemString: %SystemString, null
+    __4_const_intnl_SystemString: %SystemString, null
+    __3_const_intnl_SystemString: %SystemString, null
+    __2_const_intnl_SystemString: %SystemString, null
+    __1_const_intnl_SystemString: %SystemString, null
+    __0_const_intnl_SystemString: %SystemString, null
+    __0_const_intnl_SystemUInt32: %SystemUInt32, null
+    __18_intnl_SystemBoolean: %SystemBoolean, null
+    __17_intnl_SystemBoolean: %SystemBoolean, null
+    __16_intnl_SystemBoolean: %SystemBoolean, null
+    __15_intnl_SystemBoolean: %SystemBoolean, null
+    __14_intnl_SystemBoolean: %SystemBoolean, null
+    __13_intnl_SystemBoolean: %SystemBoolean, null
+    __12_intnl_SystemBoolean: %SystemBoolean, null
+    __11_intnl_SystemBoolean: %SystemBoolean, null
+    __10_intnl_SystemBoolean: %SystemBoolean, null
+    __9_intnl_SystemBoolean: %SystemBoolean, null
+    __8_intnl_SystemBoolean: %SystemBoolean, null
+    __7_intnl_SystemBoolean: %SystemBoolean, null
+    __6_intnl_SystemBoolean: %SystemBoolean, null
+    __5_intnl_SystemBoolean: %SystemBoolean, null
+    __4_intnl_SystemBoolean: %SystemBoolean, null
+    __3_intnl_SystemBoolean: %SystemBoolean, null
+    __2_intnl_SystemBoolean: %SystemBoolean, null
+    __1_intnl_SystemBoolean: %SystemBoolean, null
+    __0_intnl_SystemBoolean: %SystemBoolean, null
+    __2_intnl_SystemObject: %SystemObject, null
+    __1_intnl_SystemObject: %SystemObject, null
+    __0_intnl_SystemObject: %SystemObject, null
+    __0_intnl_returnTarget_UInt32: %SystemUInt32, null
+
+.data_end
+
+        
+         #  using System;
+        
+         #  using UdonSharp;
+        
+         #  using UnityEngine;
+        
+         #  using VRC.SDKBase;
+        
+         #  using VRC.Udon;
+        
+         #  namespace Guribo.UdonBetterAudio.Runtime.Examples
+        
+         #  [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
+        
+         #  public class VoiceOverrideTriggerZone : UdonSharpBehaviour
+.code_start
+        
+         #  [Header("Mandatory references")]
+        
+         #  public override void OnPlayerTriggerEnter(VRCPlayerApi player)
+    .export _onPlayerTriggerEnter
+        
+    _onPlayerTriggerEnter:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        PUSH, onPlayerTriggerEnterPlayer
+        PUSH, __0_mp_player_VRCPlayerApi
+        COPY
+        
+         #  {
+        
+         #  Debug.Log("OnPlayerTriggerEnter");
+        PUSH, __1_const_intnl_SystemString
+        EXTERN, "UnityEngineDebug.__Log__SystemObject__SystemVoid"
+        
+         #  if (!Utilities.IsValid(player) // do nothing for invalid players
+        PUSH, __0_mp_player_VRCPlayerApi
+        PUSH, __1_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __1_intnl_SystemBoolean
+        PUSH, __2_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __2_intnl_SystemBoolean
+        PUSH, __0_intnl_SystemBoolean
+        COPY
+        PUSH, __0_intnl_SystemBoolean
+        PUSH, __3_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __3_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000000FC
+        
+         #  || !Utilities.IsValid(playerAudioOverride)) // or when the required components are invalid)
+        PUSH, playerAudioOverride
+        PUSH, __4_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __4_intnl_SystemBoolean
+        PUSH, __5_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __0_intnl_SystemBoolean
+        PUSH, __5_intnl_SystemBoolean
+        PUSH, __6_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __6_intnl_SystemBoolean
+        PUSH, __0_intnl_SystemBoolean
+        COPY
+        PUSH, __0_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000120
+        
+         #  {
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  playerAudioOverride.AddPlayer(player);
+        PUSH, playerAudioOverride
+        PUSH, __2_const_intnl_SystemString
+        PUSH, __0_mp_player_VRCPlayerApi
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, playerAudioOverride
+        PUSH, __3_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, playerAudioOverride
+        PUSH, __4_const_intnl_SystemString
+        PUSH, __0_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __0_intnl_SystemObject
+        PUSH, __7_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  public override void OnPlayerTriggerExit(VRCPlayerApi player)
+    .export _onPlayerTriggerExit
+        
+    _onPlayerTriggerExit:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        PUSH, onPlayerTriggerExitPlayer
+        PUSH, __1_mp_player_VRCPlayerApi
+        COPY
+        
+         #  {
+        
+         #  if (!Utilities.IsValid(player) // do nothing for invalid players
+        PUSH, __1_mp_player_VRCPlayerApi
+        PUSH, __9_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __9_intnl_SystemBoolean
+        PUSH, __10_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __10_intnl_SystemBoolean
+        PUSH, __8_intnl_SystemBoolean
+        COPY
+        PUSH, __8_intnl_SystemBoolean
+        PUSH, __11_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __11_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x00000290
+        
+         #  || !Utilities.IsValid(playerAudioOverride)) // or when the required components are invalid
+        PUSH, playerAudioOverride
+        PUSH, __12_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __12_intnl_SystemBoolean
+        PUSH, __13_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __8_intnl_SystemBoolean
+        PUSH, __13_intnl_SystemBoolean
+        PUSH, __14_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean"
+        PUSH, __14_intnl_SystemBoolean
+        PUSH, __8_intnl_SystemBoolean
+        COPY
+        PUSH, __8_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000002B4
+        
+         #  {
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  playerAudioOverride.RemovePlayer(player);
+        PUSH, playerAudioOverride
+        PUSH, __5_const_intnl_SystemString
+        PUSH, __1_mp_player_VRCPlayerApi
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid"
+        PUSH, playerAudioOverride
+        PUSH, __6_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, playerAudioOverride
+        PUSH, __7_const_intnl_SystemString
+        PUSH, __1_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __1_intnl_SystemObject
+        PUSH, __15_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+        
+         #  internal void OnDisable()
+    .export _onDisable
+        
+    _onDisable:
+        
+        PUSH, __0_const_intnl_SystemUInt32
+        
+         #  {
+        
+         #  if (!Utilities.IsValid(playerAudioOverride))
+        PUSH, playerAudioOverride
+        PUSH, __16_intnl_SystemBoolean
+        EXTERN, "VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean"
+        PUSH, __16_intnl_SystemBoolean
+        PUSH, __17_intnl_SystemBoolean
+        EXTERN, "SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean"
+        PUSH, __17_intnl_SystemBoolean
+        JUMP_IF_FALSE, 0x000003A4
+        
+         #  {
+        
+         #  Debug.LogError("playerAudioOverride is invalid");
+        PUSH, __8_const_intnl_SystemString
+        EXTERN, "UnityEngineDebug.__LogError__SystemObject__SystemVoid"
+        
+         #  return;
+        PUSH, __0_intnl_returnTarget_UInt32 # Explicit return sequence
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+         #  playerAudioOverride.Clear();
+        PUSH, playerAudioOverride
+        PUSH, __9_const_intnl_SystemString
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid"
+        PUSH, playerAudioOverride
+        PUSH, __10_const_intnl_SystemString
+        PUSH, __2_intnl_SystemObject
+        EXTERN, "VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject"
+        PUSH, __2_intnl_SystemObject
+        PUSH, __18_intnl_SystemBoolean
+        EXTERN, "SystemConvert.__ToBoolean__SystemObject__SystemBoolean"
+        PUSH, __0_intnl_returnTarget_UInt32 # Function epilogue
+        COPY
+        JUMP_INDIRECT, __0_intnl_returnTarget_UInt32
+        
+.code_end
